@@ -1,0 +1,6 @@
+This is a fork of Apple's Darwin Streaming Server, tweaked to
+build on non-Apple platforms, using GNU autotools and installing
+files to locations that people tend to expect.
+
+Other than minor fixes, the sources are largely identical to those
+distributed by Apple.
