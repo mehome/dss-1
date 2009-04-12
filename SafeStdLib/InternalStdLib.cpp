@@ -41,6 +41,7 @@
 #include "OSMemory.h"
 #include "SafeStdLib.h"
 
+#undef qtss_printf
 
 static UInt64 sTotalChars=0;
 static UInt32 sMaxTotalCharsInK = 100 * 1000;//100MB default

@@ -28,8 +28,13 @@ libQTFileLib_la_SOURCES = \
 			QTFile_FileControlBlock.cpp \
 			QTHintTrack.cpp\
 			QTRTPFile.cpp \
-			QTTrack.cpp
-			
+			QTTrack.cpp \
+			${top_srcdir}/SafeStdLib/InternalStdLib.cpp
+
+libQTFileLib_la_LIBADD = ${top_builddir}/CommonUtilitiesLib/libCommonUtilitiesLib.la
+
 libQTFileExternalLib_la_CPPFLAGS = $(libQTFileLib_la_CPPFLAGS)
 libQTFileExternalLib_la_LDFLAGS = -static
-libQTFileExternalLib_la_SOURCES = $(libQTFileLib_SOURCES)
+libQTFileExternalLib_la_SOURCES = $(libQTFileLib_la_SOURCES)
+libQTFileExternalLib_la_LIBADD = $(libQTFileLib_la_LIBADD)
+

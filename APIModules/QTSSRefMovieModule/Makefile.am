@@ -20,8 +20,7 @@ QTSSRefMovieModule_la_SOURCES = \
 	QTSSRefMovieModule.cpp
 	
 QTSSRefMovieModule_la_LIBADD = \
-	${top_builddir}/QTFileLib/libQTFileLib.la \
-	${top_builddir}/CommonUtilitiesLib/libCommonUtilitiesLib.la
+	${top_builddir}/QTFileLib/libQTFileLib.la
 
 install-data-hook:
 	rm ${DESTDIR}${dssmoddir}/QTSSRefMovieModule.la
