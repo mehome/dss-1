@@ -69,6 +69,17 @@ static LevelMsg sErrorLevel[] = {
 	"DEBUG:"
 };
 
+static size_t strlcpy(char *dest, const char *src, size_t size)
+{
+	if(size)
+	{
+		strncpy(dest, src, size - 1);
+		dest[size - 1] = 0;
+    }
+	return strlen(src);
+}
+	
+
 // QTSSERRORLOG CLASS DEFINITION
 
 class QTSSErrorLog : public QTSSRollingLog

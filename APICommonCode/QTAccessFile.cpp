@@ -46,7 +46,9 @@
 
 
 #include <grp.h>
+#ifdef __MacOSX__
 #include <membership.h>
+#endif
 #include <pwd.h>
 #include <signal.h>
 #include <unistd.h>
@@ -616,23 +618,29 @@ bool DSAccessFile::CheckGroupMembership(const char* inUsername, const char* inGr
 	// In Tiger, group membership is painfully simple: we ask memberd for it!
 	struct passwd	*user		= NULL;
 	struct group	*group		= NULL;
+#ifdef __MacOSX__	
 	uuid_t			userID;
 	uuid_t			groupID;
 	int				isMember	= 0;
-
+#else
+	size_t          c;
+#endif
+	
 	// Look up the user using the POSIX APIs: only care about the UID.
 	user = getpwnam(inUsername);
 	if ( user == NULL )
 		return false;
+#ifdef __MacOSX__
 	uuid_clear(userID);
 	if ( mbr_uid_to_uuid(user->pw_uid, userID) )
 		return false;
-
+#endif
 	// Look up the group using the POSIX APIs: only care about the GID.
 	group = getgrnam(inGroupName);
 	endgrent();
 	if ( group == NULL )
 		return false;
+#ifdef __MacOSX__
 	uuid_clear(groupID);
 	if ( mbr_gid_to_uuid(group->gr_gid, groupID) )
 		return false;
@@ -641,6 +649,12 @@ bool DSAccessFile::CheckGroupMembership(const char* inUsername, const char* inGr
 	if ( mbr_check_membership(userID, groupID, &isMember) )
 		return false;
 	return (bool)isMember;
+#else
+	for ( c = 0; group->gr_mem[c]; c++ )
+		if ( 0 == strcmp(group->gr_mem[c], inUsername) )
+			return true;
+	return false;
+#endif
 }
 
 Bool16 DSAccessFile::ValidUser( char*userName, void* extraDataPtr)

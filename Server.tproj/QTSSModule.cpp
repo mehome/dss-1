@@ -195,17 +195,10 @@ QTSS_Error QTSSModule::LoadFromDisk(QTSS_MainEntryPointPtr* outEntrypoint)
     Assert(theFileName.Len > 0);
     Assert(theFileName.Ptr != NULL);
 
-#ifdef __Win32__
-    StringParser theDLLTruncator(&theFileName);
-    theDLLTruncator.ConsumeUntil(&theFileName, '.'); // strip off the ".DLL"
-#endif
-
     /** 08/16/01 quellish **/
 
-#if __MacOSX__
         StringParser theBundleTruncator(&theFileName);
-        theBundleTruncator.ConsumeUntil(&theFileName, '.'); // strip off the ".bundle"
-#endif
+        theBundleTruncator.ConsumeUntil(&theFileName, '.'); // strip off the file extension
 
     // At this point, theFileName points to the file name. Make this the module name.
     this->SetValue(qtssModName, 0, theFileName.Ptr, theFileName.Len, QTSSDictionary::kDontObeyReadOnly);

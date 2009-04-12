@@ -133,6 +133,14 @@
 	#define _U32BITARG_ "lu"
 #endif
 
+#if __LP64__
+    #define _SPOINTERSIZEARG_ _S64BITARG_
+    #define _UPOINTERSIZEARG_ _U64BITARG_
+#else
+    #define _SPOINTERSIZEARG_ _S32BITARG_
+    #define _UPOINTERSIZEARG_ _U32BITARG_
+#endif
+
     /* paths */
     #define kEOLString "\n"
     #define kPathDelimiterString "/"
@@ -155,8 +163,8 @@
     typedef signed short        SInt16;
     typedef unsigned int	UInt32;
     typedef signed int		SInt32;
-    typedef signed int int 	SInt64;
-    typedef unsigned int int 	UInt64;
+    typedef signed long long 	SInt64;
+    typedef unsigned long long 	UInt64;
     typedef float               Float32;
     typedef double              Float64;
     typedef UInt16              Bool16;
@@ -177,11 +185,14 @@
         
     #define TW0_CHARS_TO_INT( c1, c2 )  ( c1 << 8 | c2 )
 
+	#define kSInt16_Max (SInt16) SHRT_MAX
+	#define kUInt16_Max (UInt16) USHRT_MAX
 
+	#define kSInt32_Max (SInt32) LONG_MAX
+	#define kUInt32_Max (UInt32) ULONG_MAX
 
-
-
-
+	#define kSInt64_Max (SInt64) LONG_LONG_MAX
+	#define kUInt64_Max (UInt64) ULONG_LONG_MAX
 
 #elif __Win32__
     

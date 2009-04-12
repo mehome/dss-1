@@ -96,7 +96,8 @@ OSCodeFragment::OSCodeFragment(const char* inPath)
     
 #else
     fFragmentP = dlopen(inPath, RTLD_NOW | RTLD_GLOBAL);
-    //fprintf (stderr, "%s\n", dlerror());
+    if(NULL == fFragmentP)
+		fprintf (stderr, "%s\n", dlerror());
 
 #endif
 }

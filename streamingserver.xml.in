@@ -79,16 +79,16 @@
 	<PREF NAME="error_logfile_interval" TYPE="UInt32">7</PREF>
 
 	<!-- error log. A value of 0 means unlimited. -->
-	<PREF NAME="error_logfile_dir">/var/streaming/logs</PREF>
+	<PREF NAME="error_logfile_dir">@logdir@</PREF>
 
 	<!-- Name of the error log file. -->
 	<PREF NAME="error_logfile_name">Error</PREF>
 
 	<!-- Path to the pid file. Mac OSX and Darwin unixes only. -->
-    <PREF NAME="pid_file">/var/run/DarwinStreamingServer.pid</PREF>
+    <PREF NAME="pid_file">@piddir@/DarwinStreamingServer.pid</PREF>
 
 	<!-- Path to the folder containing dynamic loadable server modules -->
-	<PREF NAME="module_folder">/usr/local/sbin/StreamingServerModules</PREF>
+	<PREF NAME="module_folder">@dssmoddir@</PREF>
 
 	<!-- If this is true, the server will allow streaming of files that have invalid hint track references -->
 	<PREF NAME="allow_invalid_hint_track_refs" TYPE="Bool16">false</PREF>
@@ -121,7 +121,7 @@
 	<PREF NAME="bind_ip_addr">0</PREF>
 
 	<!-- Path to the root folder for movies. -->
-	<PREF NAME="movie_folder">/usr/local/movies</PREF>
+	<PREF NAME="movie_folder">@moviesdir@</PREF>
 
 	<!-- Maximum amount of bandwidth the server is allowed to serve. -->
 	<!-- value is in kilobits/sec. While this limit is exceeded, new client requests. -->
@@ -145,10 +145,10 @@
 	<PREF NAME="rtsp_timeout" TYPE="UInt32">0</PREF>
 
 	<!-- Run as this user -->
-	<PREF NAME="run_user_name"></PREF>
+	<PREF NAME="run_user_name">@dssuser@</PREF>
 
 	<!-- Member of this group -->
-	<PREF NAME="run_group_name"></PREF>
+	<PREF NAME="run_group_name">@dssgroup@</PREF>
 
 	<!-- The following 8 prefs implement the server's thinning algorithm. -->
 	<!-- They are all in milliseconds -->
@@ -318,7 +318,7 @@
 
 	<!-- This email address will be included in the dynamically -->
 	<!-- generated SDP returned to the client. -->
-	<PREF NAME="admin_email"></PREF>
+	<PREF NAME="admin_email">admin@example.com</PREF>
 	
 	<!-- File module accepts the rtsp Speed header, which controls the overall -->
 	<!-- play rate. This is the maximum rate it will allow -->
@@ -356,7 +356,7 @@
 	<PREF NAME="mp3_streaming_enabled" TYPE="Bool16">true</PREF>
 	
 	<!-- This is the broadcaster application's password -->
-	<PREF NAME="mp3_broadcast_password"> </PREF>
+	<PREF NAME="mp3_broadcast_password">changeme</PREF>
 	
 	<!-- This is the number of bytes we read from a broadcaster before sending to clients -->
 	<!-- You can use this for performance tuning. -->
@@ -403,14 +403,14 @@
 	<PREF NAME="http_xfer_enabled" TYPE="Bool16" >false</PREF>
 	<!-- Path to the http download folder. All files -->
 	<!-- that are requested from this folder are sent via HTTP -->
-	<PREF NAME="http_folder">/usr/local/movies/http</PREF>
+	<PREF NAME="http_folder">@moviesdir@/http</PREF>
 	<!-- Either "true" or "false". This toggles http module -->
 	<!-- logging on and off. -->
 	<PREF NAME="http_logging" TYPE="Bool16">true</PREF>
 	<!-- Name of the http module log file. -->
 	<PREF NAME="http_logfile_name">Http</PREF>
 	<!-- Path to directory where http module logs are stored. -->
-	<PREF NAME="http_logfile_dir">/var/streaming/logs</PREF>
+	<PREF NAME="http_logfile_dir">@logdir@</PREF>
 	<!-- Maximum allowed size in bytes for the http module log. A -->
 	<!-- value of 0 means unlimited. -->
 	<PREF NAME="http_logfile_size" TYPE="UInt32">256000</PREF>
@@ -525,7 +525,7 @@
 <MODULE NAME="QTSSRelayModule">
 	<!-- Relay preferences file. This file should be in the documented .rcf (Relay config file) -->
 	<!-- format. The Relay will use this to load up all relay streams -->
-	<PREF NAME="relay_prefs_file">/etc/streaming/relayconfig.xml</PREF>
+	<PREF NAME="relay_prefs_file">@configdir@/relayconfig.xml</PREF>
 
 	<!-- enter this URL into a web browser and get a web page with current stats on -->
 	<!-- your active relays -->
@@ -537,10 +537,10 @@
 	<PREF NAME="modAccess_qtaccessfilename">qtaccess</PREF>
 
 	<!-- The default path and file name for the AccessModule's groups list -->
-	<PREF NAME="modAccess_groupsfilepath">/etc/streaming/qtgroups</PREF>
+	<PREF NAME="modAccess_groupsfilepath">@configdir@/qtgroups</PREF>
 
 	<!-- The default path and file name for the AccessModule's user list -->
-	<PREF NAME="modAccess_usersfilepath">/etc/streaming/qtusers</PREF>
+	<PREF NAME="modAccess_usersfilepath">@configdir@/qtusers</PREF>
 </MODULE>
 
 <MODULE NAME="QTSSAdminModule">
