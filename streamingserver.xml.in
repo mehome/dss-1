@@ -297,7 +297,7 @@
 	<PREF NAME="request_logfile_size" TYPE="UInt32">10240000</PREF>
 
 	<!-- Path to directory where access logs are stored. -->
-	<PREF NAME="request_logfile_dir">/var/streaming/logs</PREF>
+	<PREF NAME="request_logfile_dir">@logdir@</PREF>
 
 	<!-- Name of the access log file. -->
 	<PREF NAME="request_logfile_name">StreamingServer</PREF>
@@ -371,7 +371,7 @@
     <PREF NAME="mp3_request_logfile_name" >mp3_access</PREF>
     
 	<!-- Path to directory where access logs are stored. -->
-	<PREF NAME="mp3_request_logfile_dir">/var/streaming/logs</PREF>
+	<PREF NAME="mp3_request_logfile_dir">@logdir@</PREF>
 
 	<!-- Either "true" or "false". This toggles -->
 	<!-- mp3 access logging on and off. -->
