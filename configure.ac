@@ -1,15 +1,34 @@
 AC_INIT([DarwinStreamingServer],[6.0.3-evo1],,[dss])
 AC_CONFIG_SRCDIR([Server.tproj/main.cpp])
-AC_PREFIX_DEFAULT([/opt/dss])
 AM_INIT_AUTOMAKE([foreign])
 AM_MAINTAINER_MODE
+AC_PREFIX_DEFAULT([/opt/dss])
 
 AC_PROG_CC
 AC_PROG_CXX
 AC_PROG_LIBTOOL
 
+case "${host_os}" in
+	darwin*)
+		fs_layout="apple"
+		fs_domain=""
+		CPPFLAGS="-D__MacOSX__ -DNeXT $CPPFLAGS"
+		CXXFLAGS="-fmessage-length=0 -Wno-trigraphs -fno-exceptions -fpascal-strings -fasm-blocks"
+		SERVER_LIBS="-framework Security -framework CoreFoundation -framework DirectoryService"
+		ac_default_prefix="/usr"
+		test x"${localstatedir}" = x'${prefix}/var' && localstatedir='/var'
+		;;
+	*)
+		fs_layout="gnu"
+		;;
+esac
+
 CPPFLAGS="-D_REENTRANT -D__USE_POSIX $CPPFLAGS"
 AC_SUBST([CPPFLAGS])
+
+AC_SUBST([CXXFLAGS])
+
+AC_SUBST([SERVER_LIBS])
 
 AC_C_BIGENDIAN
 
@@ -42,28 +61,45 @@ fi
 
 dnl Evaluate the full paths to various directories so that we can substitute
 dnl them into configuration files and scripts.
-moviesdir=`eval echo "${datarootdir}/${PACKAGE_TARNAME}/movies"`
+
+if test x"${fs_layout}" = x"gnu" ; then
+	moviesdir=`eval echo "${datarootdir}/${PACKAGE_TARNAME}/movies"`
+	playlistsdir=`eval echo "${datarootdir}/${PACKAGE_TARNAME}/playlists"`
+	serverdir=`eval echo "${sbindir}"`
+	dssdir=`eval echo "${libdir}/${PACKAGE_TARNAME}"`
+	dssmoddir=`eval echo "${libdir}/${PACKAGE_TARNAME}/modules"`
+	htmldir=`eval echo "${datarootdir}/${PACKAGE_TARNAME}/admin"`
+	toolsdir=`eval echo "${libexecdir}"`
+	logdir=`eval echo "${localstatedir}/log/${PACKAGE_TARNAME}"`
+	piddir=`eval echo "${localstatedir}/run"`
+	configdir=`eval echo "${sysconfdir}/${PACKAGE_TARNAME}"`
+	samplesdir=`eval echo "${docdir}"`
+else
+	moviesdir=`eval echo "${fs_domain}/Library/QuickTimeStreaming/Movies"`
+	playlistsdir=`eval echo "${fs_domain}/Library/QuickTimeStreaming/Playlists"`
+	serverdir=`eval echo "${sbindir}"`
+	dssdir=`eval echo "${fs_domain}/Library/QuickTimeStreaming"`
+	dssmoddir=`eval echo "${fs_domain}/Library/QuickTimeStreaming/Modules"`
+	toolsdir=`eval echo "${sbindir}"`
+	logdir=`eval echo "${fs_domain}/Library/QuickTimeStreaming/Logs"`
+	piddir=`eval echo "${localstatedir}/run"`
+	configdir=`eval echo "${fs_domain}/Library/QuickTimeStreaming/Config"`
+	samplesdir="{$moviesdir}"
+fi
+
 AC_SUBST([moviesdir])
-playlistsdir=`eval echo "${datarootdir}/${PACKAGE_TARNAME}/playlists"`
 AC_SUBST([playlistsdir])
-serverdir=`eval echo "${sbindir}"`
 AC_SUBST([serverdir])
-dssdir=`eval echo "${libdir}/${PACKAGE_TARNAME}"`
 AC_SUBST([dssdir])
-dssmoddir=`eval echo "${libdir}/${PACKAGE_TARNAME}/modules"`
 AC_SUBST([dssmoddir])
-htmldir=`eval echo "${datarootdir}/${PACKAGE_TARNAME}/admin"`
 AC_SUBST([htmldir])
-toolsdir=`eval echo "${libexecdir}"`
 AC_SUBST([toolsdir])
-logdir=`eval echo "${localstatedir}/log/${PACKAGE_TARNAME}"`
 AC_SUBST([logdir])
-piddir=`eval echo "${localstatedir}/run"`
 AC_SUBST([piddir])
-configdir=`eval echo "${sysconfdir}/${PACKAGE_TARNAME}"`
 AC_SUBST([configdir])
-samplesdir=`eval echo "${docdir}"`
 AC_SUBST([samplesdir])
+
+
 
 AC_DEFINE_UNQUOTED([kPlatformNameString], ["$host_os"], [Platform name])
 

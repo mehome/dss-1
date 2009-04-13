@@ -1402,1330 +1402,1330 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD9848A10F939D8500BEA950 /* DSS_Generic (Copied) */;
+			remoteGlobalIDString = CD9848A10F939D8500BEA950;
 			remoteInfo = "DSS_Generic (Copied)";
 		};
 		CD9851F50F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD9851550F939D8C00BEA950 /* QTSS Server (Upgraded) */;
+			remoteGlobalIDString = CD9851550F939D8C00BEA950;
 			remoteInfo = "QTSS Server (Upgraded)";
 		};
 		CD9851F70F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984B360F939D8600BEA950 /* StreamingLoadTool (Upgraded) */;
+			remoteGlobalIDString = CD984B360F939D8600BEA950;
 			remoteInfo = "StreamingLoadTool (Upgraded)";
 		};
 		CD9851F90F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD9848A10F939D8500BEA950 /* DSS_Generic (Copied) */;
+			remoteGlobalIDString = CD9848A10F939D8500BEA950;
 			remoteInfo = "DSS_Generic (Copied)";
 		};
 		CD9851FB0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98497C0F939D8500BEA950 /* DSS Server (Upgraded) */;
+			remoteGlobalIDString = CD98497C0F939D8500BEA950;
 			remoteInfo = "DSS Server (Upgraded)";
 		};
 		CD9851FD0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984B360F939D8600BEA950 /* StreamingLoadTool (Upgraded) */;
+			remoteGlobalIDString = CD984B360F939D8600BEA950;
 			remoteInfo = "StreamingLoadTool (Upgraded)";
 		};
 		CD9851FF0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD9850DE0F939D8B00BEA950 /* QTSSLinkApp (Upgraded) */;
+			remoteGlobalIDString = CD9850DE0F939D8B00BEA950;
 			remoteInfo = "QTSSLinkApp (Upgraded)";
 		};
 		CD9852010F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984C5D0F939D8800BEA950 /* AtomicLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984C5D0F939D8800BEA950;
 			remoteInfo = "AtomicLib (Library) (Upgraded)";
 		};
 		CD9852030F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD9850C60F939D8B00BEA950 /* SafeInternalStdLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD9850C60F939D8B00BEA950;
 			remoteInfo = "SafeInternalStdLib (Library) (Upgraded)";
 		};
 		CD9852050F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD9850D20F939D8B00BEA950 /* SafeDynamicModuleStdLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD9850D20F939D8B00BEA950;
 			remoteInfo = "SafeDynamicModuleStdLib (Library) (Upgraded)";
 		};
 		CD9852070F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984C900F939D8800BEA950 /* CommonUtilitiesLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984C900F939D8800BEA950;
 			remoteInfo = "CommonUtilitiesLib (Library) (Upgraded)";
 		};
 		CD9852090F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984D050F939D8800BEA950 /* OSMemoryLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984D050F939D8800BEA950;
 			remoteInfo = "OSMemoryLib (Library) (Upgraded)";
 		};
 		CD98520B0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984D8C0F939D8800BEA950 /* RTCPUtilitiesLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984D8C0F939D8800BEA950;
 			remoteInfo = "RTCPUtilitiesLib (Library) (Upgraded)";
 		};
 		CD98520D0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984D1B0F939D8800BEA950 /* PrefsSourceLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984D1B0F939D8800BEA950;
 			remoteInfo = "PrefsSourceLib (Library) (Upgraded)";
 		};
 		CD98520F0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984C820F939D8800BEA950 /* APIStubLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984C820F939D8800BEA950;
 			remoteInfo = "APIStubLib (Library) (Upgraded)";
 		};
 		CD9852110F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984CF70F939D8800BEA950 /* HTTPUtilitiesLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984CF70F939D8800BEA950;
 			remoteInfo = "HTTPUtilitiesLib (Library) (Upgraded)";
 		};
 		CD9852130F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984DA30F939D8800BEA950 /* RTPMetaInfoLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984DA30F939D8800BEA950;
 			remoteInfo = "RTPMetaInfoLib (Library) (Upgraded)";
 		};
 		CD9852150F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984D5C0F939D8800BEA950 /* QTFileLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984D5C0F939D8800BEA950;
 			remoteInfo = "QTFileLib (Library) (Upgraded)";
 		};
 		CD9852170F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984C6B0F939D8800BEA950 /* APICommonCode (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984C6B0F939D8800BEA950;
 			remoteInfo = "APICommonCode (Library) (Upgraded)";
 		};
 		CD9852190F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984DAF0F939D8900BEA950 /* RTSPClientLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984DAF0F939D8900BEA950;
 			remoteInfo = "RTSPClientLib (Library) (Upgraded)";
 		};
 		CD98521B0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98495E0F939D8500BEA950 /* QTFileTools (Copied) */;
+			remoteGlobalIDString = CD98495E0F939D8500BEA950;
 			remoteInfo = "QTFileTools (Copied)";
 		};
 		CD98521D0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD9849310F939D8500BEA950 /* APIModules (Copied) */;
+			remoteGlobalIDString = CD9849310F939D8500BEA950;
 			remoteInfo = "APIModules (Copied)";
 		};
 		CD98521F0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984AC60F939D8600BEA950 /* MP3Broadcaster (Upgraded) */;
+			remoteGlobalIDString = CD984AC60F939D8600BEA950;
 			remoteInfo = "MP3Broadcaster (Upgraded)";
 		};
 		CD9852210F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984AEB0F939D8600BEA950 /* PlaylistBroadcaster (Upgraded) */;
+			remoteGlobalIDString = CD984AEB0F939D8600BEA950;
 			remoteInfo = "PlaylistBroadcaster (Upgraded)";
 		};
 		CD9852230F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984B5C0F939D8600BEA950 /* StreamingProxy (Upgraded) */;
+			remoteGlobalIDString = CD984B5C0F939D8600BEA950;
 			remoteInfo = "StreamingProxy (Upgraded)";
 		};
 		CD9852250F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984B250F939D8600BEA950 /* qtpasswd (Upgraded) */;
+			remoteGlobalIDString = CD984B250F939D8600BEA950;
 			remoteInfo = "qtpasswd (Upgraded)";
 		};
 		CD9852270F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD9850350F939D8B00BEA950 /* WebAdmin (Upgraded) */;
+			remoteGlobalIDString = CD9850350F939D8B00BEA950;
 			remoteInfo = "WebAdmin (Upgraded)";
 		};
 		CD9852290F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD9850EE0F939D8C00BEA950 /* broadcasterctl (Upgraded) */;
+			remoteGlobalIDString = CD9850EE0F939D8C00BEA950;
 			remoteInfo = "broadcasterctl (Upgraded)";
 		};
 		CD98522B0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984EBE0F939D8900BEA950 /* QTSSDemoRedirectModule (Bundle) (Upgraded) */;
+			remoteGlobalIDString = CD984EBE0F939D8900BEA950;
 			remoteInfo = "QTSSDemoRedirectModule (Bundle) (Upgraded)";
 		};
 		CD98522D0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD9851120F939D8C00BEA950 /* QTSSHomeDirectoryModule (Bundle) (Upgraded) */;
+			remoteGlobalIDString = CD9851120F939D8C00BEA950;
 			remoteInfo = "QTSSHomeDirectoryModule (Bundle) (Upgraded)";
 		};
 		CD98522F0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984E760F939D8900BEA950 /* QTSSAccessModule.bundle (Upgraded) */;
+			remoteGlobalIDString = CD984E760F939D8900BEA950;
 			remoteInfo = "QTSSAccessModule.bundle (Upgraded)";
 		};
 		CD9852310F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984F030F939D8A00BEA950 /* QTSSFileModule.bundle (Upgraded) */;
+			remoteGlobalIDString = CD984F030F939D8A00BEA950;
 			remoteInfo = "QTSSFileModule.bundle (Upgraded)";
 		};
 		CD9852330F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984E8E0F939D8900BEA950 /* QTSSAccessLogModule.bundle (Upgraded) */;
+			remoteGlobalIDString = CD984E8E0F939D8900BEA950;
 			remoteInfo = "QTSSAccessLogModule.bundle (Upgraded)";
 		};
 		CD9852350F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984F990F939D8A00BEA950 /* QTSSReflectorModule.bundle (Upgraded) */;
+			remoteGlobalIDString = CD984F990F939D8A00BEA950;
 			remoteInfo = "QTSSReflectorModule.bundle (Upgraded)";
 		};
 		CD9852370F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984F320F939D8A00BEA950 /* QTSSFlowControlModule.bundle (Upgraded) */;
+			remoteGlobalIDString = CD984F320F939D8A00BEA950;
 			remoteInfo = "QTSSFlowControlModule.bundle (Upgraded)";
 		};
 		CD9852390F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98500C0F939D8A00BEA950 /* QTSSWebDebugModule.bundle (Upgraded) */;
+			remoteGlobalIDString = CD98500C0F939D8A00BEA950;
 			remoteInfo = "QTSSWebDebugModule.bundle (Upgraded)";
 		};
 		CD98523B0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98501F0F939D8B00BEA950 /* QTSSWebStatsModule (Bundle) (Upgraded) */;
+			remoteGlobalIDString = CD98501F0F939D8B00BEA950;
 			remoteInfo = "QTSSWebStatsModule (Bundle) (Upgraded)";
 		};
 		CD98523D0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984F6C0F939D8A00BEA950 /* QTSSPOSIXFileSysModule.bundle (Upgraded) */;
+			remoteGlobalIDString = CD984F6C0F939D8A00BEA950;
 			remoteInfo = "QTSSPOSIXFileSysModule.bundle (Upgraded)";
 		};
 		CD98523F0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984EA40F939D8900BEA950 /* QTSSAdminModule.bundle (Upgraded) */;
+			remoteGlobalIDString = CD984EA40F939D8900BEA950;
 			remoteInfo = "QTSSAdminModule.bundle (Upgraded)";
 		};
 		CD9852410F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984F480F939D8A00BEA950 /* QTSSHttpFileModule (Bundle) (Upgraded) */;
+			remoteGlobalIDString = CD984F480F939D8A00BEA950;
 			remoteInfo = "QTSSHttpFileModule (Bundle) (Upgraded)";
 		};
 		CD9852430F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984FC80F939D8A00BEA950 /* QTSSRefMovieModule (Bundle) (Upgraded) */;
+			remoteGlobalIDString = CD984FC80F939D8A00BEA950;
 			remoteInfo = "QTSSRefMovieModule (Bundle) (Upgraded)";
 		};
 		CD9852450F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984FDD0F939D8A00BEA950 /* QTSSRTPFileModule (Bundle) (Upgraded) */;
+			remoteGlobalIDString = CD984FDD0F939D8A00BEA950;
 			remoteInfo = "QTSSRTPFileModule (Bundle) (Upgraded)";
 		};
 		CD9852470F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984FF50F939D8A00BEA950 /* QTSSSpamDefenseModule (Bundle) (Upgraded) */;
+			remoteGlobalIDString = CD984FF50F939D8A00BEA950;
 			remoteInfo = "QTSSSpamDefenseModule (Bundle) (Upgraded)";
 		};
 		CD9852490F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984F820F939D8A00BEA950 /* QTSSRawFileModule (Bundle) (Upgraded) */;
+			remoteGlobalIDString = CD984F820F939D8A00BEA950;
 			remoteInfo = "QTSSRawFileModule (Bundle) (Upgraded)";
 		};
 		CD98524B0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984F1A0F939D8A00BEA950 /* QTSSFilePrivsModule (Bundle) (Upgraded) */;
+			remoteGlobalIDString = CD984F1A0F939D8A00BEA950;
 			remoteInfo = "QTSSFilePrivsModule (Bundle) (Upgraded)";
 		};
 		CD98524D0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984ED50F939D8A00BEA950 /* QTSSDemoAuthorizationModule (Bundle) (Upgraded) */;
+			remoteGlobalIDString = CD984ED50F939D8A00BEA950;
 			remoteInfo = "QTSSDemoAuthorizationModule (Bundle) (Upgraded)";
 		};
 		CD98524F0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984EEC0F939D8A00BEA950 /* QTSSDemoSMILModule (Bundle) (Upgraded) */;
+			remoteGlobalIDString = CD984EEC0F939D8A00BEA950;
 			remoteInfo = "QTSSDemoSMILModule (Bundle) (Upgraded)";
 		};
 		CD9852510F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984D100F939D8800BEA950 /* OSMemory_Modules (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984D100F939D8800BEA950;
 			remoteInfo = "OSMemory_Modules (Library) (Upgraded)";
 		};
 		CD9852530F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984E660F939D8900BEA950 /* QTSSAccessModule (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984E660F939D8900BEA950;
 			remoteInfo = "QTSSAccessModule (Library) (Upgraded)";
 		};
 		CD9852550F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984DDD0F939D8900BEA950 /* QTSSAccessLogModule (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984DDD0F939D8900BEA950;
 			remoteInfo = "QTSSAccessLogModule (Library) (Upgraded)";
 		};
 		CD9852570F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984DEB0F939D8900BEA950 /* QTSSAdminModule (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984DEB0F939D8900BEA950;
 			remoteInfo = "QTSSAdminModule (Library) (Upgraded)";
 		};
 		CD9852590F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984DFD0F939D8900BEA950 /* QTSSFileModule (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984DFD0F939D8900BEA950;
 			remoteInfo = "QTSSFileModule (Library) (Upgraded)";
 		};
 		CD98525B0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984E0B0F939D8900BEA950 /* QTSSFlowControlModule (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984E0B0F939D8900BEA950;
 			remoteInfo = "QTSSFlowControlModule (Library) (Upgraded)";
 		};
 		CD98525D0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984E190F939D8900BEA950 /* QTSSMP3StreamingModule (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984E190F939D8900BEA950;
 			remoteInfo = "QTSSMP3StreamingModule (Library) (Upgraded)";
 		};
 		CD98525F0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984E4A0F939D8900BEA950 /* QTSSPOSIXFileSysModule (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984E4A0F939D8900BEA950;
 			remoteInfo = "QTSSPOSIXFileSysModule (Library) (Upgraded)";
 		};
 		CD9852610F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984E270F939D8900BEA950 /* QTSSReflectorModule (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984E270F939D8900BEA950;
 			remoteInfo = "QTSSReflectorModule (Library) (Upgraded)";
 		};
 		CD9852630F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984F600F939D8A00BEA950 /* QTSSProxyModule (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984F600F939D8A00BEA950;
 			remoteInfo = "QTSSProxyModule (Library) (Upgraded)";
 		};
 		CD9852650F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984E580F939D8900BEA950 /* QTSSWebDebugModule (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984E580F939D8900BEA950;
 			remoteInfo = "QTSSWebDebugModule (Library) (Upgraded)";
 		};
 		CD9852670F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984EBE0F939D8900BEA950 /* QTSSDemoRedirectModule (Bundle) (Upgraded) */;
+			remoteGlobalIDString = CD984EBE0F939D8900BEA950;
 			remoteInfo = "QTSSDemoRedirectModule (Bundle) (Upgraded)";
 		};
 		CD9852690F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD9851120F939D8C00BEA950 /* QTSSHomeDirectoryModule (Bundle) (Upgraded) */;
+			remoteGlobalIDString = CD9851120F939D8C00BEA950;
 			remoteInfo = "QTSSHomeDirectoryModule (Bundle) (Upgraded)";
 		};
 		CD98526B0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984FC80F939D8A00BEA950 /* QTSSRefMovieModule (Bundle) (Upgraded) */;
+			remoteGlobalIDString = CD984FC80F939D8A00BEA950;
 			remoteInfo = "QTSSRefMovieModule (Bundle) (Upgraded)";
 		};
 		CD98526D0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984ED50F939D8A00BEA950 /* QTSSDemoAuthorizationModule (Bundle) (Upgraded) */;
+			remoteGlobalIDString = CD984ED50F939D8A00BEA950;
 			remoteInfo = "QTSSDemoAuthorizationModule (Bundle) (Upgraded)";
 		};
 		CD98526F0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984EEC0F939D8A00BEA950 /* QTSSDemoSMILModule (Bundle) (Upgraded) */;
+			remoteGlobalIDString = CD984EEC0F939D8A00BEA950;
 			remoteInfo = "QTSSDemoSMILModule (Bundle) (Upgraded)";
 		};
 		CD9852710F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984F1A0F939D8A00BEA950 /* QTSSFilePrivsModule (Bundle) (Upgraded) */;
+			remoteGlobalIDString = CD984F1A0F939D8A00BEA950;
 			remoteInfo = "QTSSFilePrivsModule (Bundle) (Upgraded)";
 		};
 		CD9852730F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984F480F939D8A00BEA950 /* QTSSHttpFileModule (Bundle) (Upgraded) */;
+			remoteGlobalIDString = CD984F480F939D8A00BEA950;
 			remoteInfo = "QTSSHttpFileModule (Bundle) (Upgraded)";
 		};
 		CD9852750F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984F820F939D8A00BEA950 /* QTSSRawFileModule (Bundle) (Upgraded) */;
+			remoteGlobalIDString = CD984F820F939D8A00BEA950;
 			remoteInfo = "QTSSRawFileModule (Bundle) (Upgraded)";
 		};
 		CD9852770F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984FDD0F939D8A00BEA950 /* QTSSRTPFileModule (Bundle) (Upgraded) */;
+			remoteGlobalIDString = CD984FDD0F939D8A00BEA950;
 			remoteInfo = "QTSSRTPFileModule (Bundle) (Upgraded)";
 		};
 		CD9852790F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984FF50F939D8A00BEA950 /* QTSSSpamDefenseModule (Bundle) (Upgraded) */;
+			remoteGlobalIDString = CD984FF50F939D8A00BEA950;
 			remoteInfo = "QTSSSpamDefenseModule (Bundle) (Upgraded)";
 		};
 		CD98527B0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98501F0F939D8B00BEA950 /* QTSSWebStatsModule (Bundle) (Upgraded) */;
+			remoteGlobalIDString = CD98501F0F939D8B00BEA950;
 			remoteInfo = "QTSSWebStatsModule (Bundle) (Upgraded)";
 		};
 		CD98527D0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD9848FB0F939D8500BEA950 /* APIModules_Static (Copied) */;
+			remoteGlobalIDString = CD9848FB0F939D8500BEA950;
 			remoteInfo = "APIModules_Static (Copied)";
 		};
 		CD98527F0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD9849160F939D8500BEA950 /* APIModules_Dynamic (Copied) */;
+			remoteGlobalIDString = CD9849160F939D8500BEA950;
 			remoteInfo = "APIModules_Dynamic (Copied)";
 		};
 		CD9852810F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984C5D0F939D8800BEA950 /* AtomicLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984C5D0F939D8800BEA950;
 			remoteInfo = "AtomicLib (Library) (Upgraded)";
 		};
 		CD9852830F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984C6B0F939D8800BEA950 /* APICommonCode (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984C6B0F939D8800BEA950;
 			remoteInfo = "APICommonCode (Library) (Upgraded)";
 		};
 		CD9852850F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984C820F939D8800BEA950 /* APIStubLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984C820F939D8800BEA950;
 			remoteInfo = "APIStubLib (Library) (Upgraded)";
 		};
 		CD9852870F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984C900F939D8800BEA950 /* CommonUtilitiesLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984C900F939D8800BEA950;
 			remoteInfo = "CommonUtilitiesLib (Library) (Upgraded)";
 		};
 		CD9852890F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984CF70F939D8800BEA950 /* HTTPUtilitiesLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984CF70F939D8800BEA950;
 			remoteInfo = "HTTPUtilitiesLib (Library) (Upgraded)";
 		};
 		CD98528B0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984D050F939D8800BEA950 /* OSMemoryLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984D050F939D8800BEA950;
 			remoteInfo = "OSMemoryLib (Library) (Upgraded)";
 		};
 		CD98528D0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984D100F939D8800BEA950 /* OSMemory_Modules (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984D100F939D8800BEA950;
 			remoteInfo = "OSMemory_Modules (Library) (Upgraded)";
 		};
 		CD98528F0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984D1B0F939D8800BEA950 /* PrefsSourceLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984D1B0F939D8800BEA950;
 			remoteInfo = "PrefsSourceLib (Library) (Upgraded)";
 		};
 		CD9852910F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984D2C0F939D8800BEA950 /* QTFileExternalLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984D2C0F939D8800BEA950;
 			remoteInfo = "QTFileExternalLib (Library) (Upgraded)";
 		};
 		CD9852930F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984D5C0F939D8800BEA950 /* QTFileLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984D5C0F939D8800BEA950;
 			remoteInfo = "QTFileLib (Library) (Upgraded)";
 		};
 		CD9852950F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984D8C0F939D8800BEA950 /* RTCPUtilitiesLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984D8C0F939D8800BEA950;
 			remoteInfo = "RTCPUtilitiesLib (Library) (Upgraded)";
 		};
 		CD9852970F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984DA30F939D8800BEA950 /* RTPMetaInfoLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984DA30F939D8800BEA950;
 			remoteInfo = "RTPMetaInfoLib (Library) (Upgraded)";
 		};
 		CD9852990F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984DAF0F939D8900BEA950 /* RTSPClientLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984DAF0F939D8900BEA950;
 			remoteInfo = "RTSPClientLib (Library) (Upgraded)";
 		};
 		CD98529B0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD9850C60F939D8B00BEA950 /* SafeInternalStdLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD9850C60F939D8B00BEA950;
 			remoteInfo = "SafeInternalStdLib (Library) (Upgraded)";
 		};
 		CD98529D0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD9850D20F939D8B00BEA950 /* SafeDynamicModuleStdLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD9850D20F939D8B00BEA950;
 			remoteInfo = "SafeDynamicModuleStdLib (Library) (Upgraded)";
 		};
 		CD98529F0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD9850C60F939D8B00BEA950 /* SafeInternalStdLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD9850C60F939D8B00BEA950;
 			remoteInfo = "SafeInternalStdLib (Library) (Upgraded)";
 		};
 		CD9852A10F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD9850D20F939D8B00BEA950 /* SafeDynamicModuleStdLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD9850D20F939D8B00BEA950;
 			remoteInfo = "SafeDynamicModuleStdLib (Library) (Upgraded)";
 		};
 		CD9852A30F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984BDA0F939D8700BEA950 /* QTSDPGen (Upgraded) */;
+			remoteGlobalIDString = CD984BDA0F939D8700BEA950;
 			remoteInfo = "QTSDPGen (Upgraded)";
 		};
 		CD9852A50F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984DC60F939D8900BEA950 /* TestQTFileLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984DC60F939D8900BEA950;
 			remoteInfo = "TestQTFileLib (Library) (Upgraded)";
 		};
 		CD9852A70F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984BA40F939D8700BEA950 /* QTRTPGen (Upgraded) */;
+			remoteGlobalIDString = CD984BA40F939D8700BEA950;
 			remoteInfo = "QTRTPGen (Upgraded)";
 		};
 		CD9852A90F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984BC00F939D8700BEA950 /* QTRTPFileTest (Upgraded) */;
+			remoteGlobalIDString = CD984BC00F939D8700BEA950;
 			remoteInfo = "QTRTPFileTest (Upgraded)";
 		};
 		CD9852AB0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984BF40F939D8700BEA950 /* QTSampleLister (Upgraded) */;
+			remoteGlobalIDString = CD984BF40F939D8700BEA950;
 			remoteInfo = "QTSampleLister (Upgraded)";
 		};
 		CD9852AD0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984C0E0F939D8700BEA950 /* QTTrackInfo (Upgraded) */;
+			remoteGlobalIDString = CD984C0E0F939D8700BEA950;
 			remoteInfo = "QTTrackInfo (Upgraded)";
 		};
 		CD9852AF0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984B700F939D8700BEA950 /* QTFileInfo (Upgraded) */;
+			remoteGlobalIDString = CD984B700F939D8700BEA950;
 			remoteInfo = "QTFileInfo (Upgraded)";
 		};
 		CD9852B10F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984B8A0F939D8700BEA950 /* QTFileTest (Upgraded) */;
+			remoteGlobalIDString = CD984B8A0F939D8700BEA950;
 			remoteInfo = "QTFileTest (Upgraded)";
 		};
 		CD9852B30F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984C280F939D8800BEA950 /* QTBroadcaster (Upgraded) */;
+			remoteGlobalIDString = CD984C280F939D8800BEA950;
 			remoteInfo = "QTBroadcaster (Upgraded)";
 		};
 		CD9852B50F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984C420F939D8800BEA950 /* RTPFileGen (Upgraded) */;
+			remoteGlobalIDString = CD984C420F939D8800BEA950;
 			remoteInfo = "RTPFileGen (Upgraded)";
 		};
 		CD9852B70F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98493B0F939D8500BEA950 /* Libraries (Copied) */;
+			remoteGlobalIDString = CD98493B0F939D8500BEA950;
 			remoteInfo = "Libraries (Copied)";
 		};
 		CD9852B90F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD9848FB0F939D8500BEA950 /* APIModules_Static (Copied) */;
+			remoteGlobalIDString = CD9848FB0F939D8500BEA950;
 			remoteInfo = "APIModules_Static (Copied)";
 		};
 		CD9852BB0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98512B0F939D8C00BEA950 /* QTSSDSAuthModule (Library) DSS (Upgraded) */;
+			remoteGlobalIDString = CD98512B0F939D8C00BEA950;
 			remoteInfo = "QTSSDSAuthModule (Library) DSS (Upgraded)";
 		};
 		CD9852BD0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98493B0F939D8500BEA950 /* Libraries (Copied) */;
+			remoteGlobalIDString = CD98493B0F939D8500BEA950;
 			remoteInfo = "Libraries (Copied)";
 		};
 		CD9852BF0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98493B0F939D8500BEA950 /* Libraries (Copied) */;
+			remoteGlobalIDString = CD98493B0F939D8500BEA950;
 			remoteInfo = "Libraries (Copied)";
 		};
 		CD9852C10F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984C6B0F939D8800BEA950 /* APICommonCode (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984C6B0F939D8800BEA950;
 			remoteInfo = "APICommonCode (Library) (Upgraded)";
 		};
 		CD9852C30F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984C900F939D8800BEA950 /* CommonUtilitiesLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984C900F939D8800BEA950;
 			remoteInfo = "CommonUtilitiesLib (Library) (Upgraded)";
 		};
 		CD9852C50F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984D050F939D8800BEA950 /* OSMemoryLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984D050F939D8800BEA950;
 			remoteInfo = "OSMemoryLib (Library) (Upgraded)";
 		};
 		CD9852C70F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984C820F939D8800BEA950 /* APIStubLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984C820F939D8800BEA950;
 			remoteInfo = "APIStubLib (Library) (Upgraded)";
 		};
 		CD9852C90F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98493B0F939D8500BEA950 /* Libraries (Copied) */;
+			remoteGlobalIDString = CD98493B0F939D8500BEA950;
 			remoteInfo = "Libraries (Copied)";
 		};
 		CD9852CB0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984C900F939D8800BEA950 /* CommonUtilitiesLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984C900F939D8800BEA950;
 			remoteInfo = "CommonUtilitiesLib (Library) (Upgraded)";
 		};
 		CD9852CD0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984C5D0F939D8800BEA950 /* AtomicLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984C5D0F939D8800BEA950;
 			remoteInfo = "AtomicLib (Library) (Upgraded)";
 		};
 		CD9852CF0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984C900F939D8800BEA950 /* CommonUtilitiesLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984C900F939D8800BEA950;
 			remoteInfo = "CommonUtilitiesLib (Library) (Upgraded)";
 		};
 		CD9852D10F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984D050F939D8800BEA950 /* OSMemoryLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984D050F939D8800BEA950;
 			remoteInfo = "OSMemoryLib (Library) (Upgraded)";
 		};
 		CD9852D30F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984D1B0F939D8800BEA950 /* PrefsSourceLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984D1B0F939D8800BEA950;
 			remoteInfo = "PrefsSourceLib (Library) (Upgraded)";
 		};
 		CD9852D50F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984DAF0F939D8900BEA950 /* RTSPClientLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984DAF0F939D8900BEA950;
 			remoteInfo = "RTSPClientLib (Library) (Upgraded)";
 		};
 		CD9852D70F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984DA30F939D8800BEA950 /* RTPMetaInfoLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984DA30F939D8800BEA950;
 			remoteInfo = "RTPMetaInfoLib (Library) (Upgraded)";
 		};
 		CD9852D90F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984C6B0F939D8800BEA950 /* APICommonCode (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984C6B0F939D8800BEA950;
 			remoteInfo = "APICommonCode (Library) (Upgraded)";
 		};
 		CD9852DB0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984C900F939D8800BEA950 /* CommonUtilitiesLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984C900F939D8800BEA950;
 			remoteInfo = "CommonUtilitiesLib (Library) (Upgraded)";
 		};
 		CD9852DD0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984D050F939D8800BEA950 /* OSMemoryLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984D050F939D8800BEA950;
 			remoteInfo = "OSMemoryLib (Library) (Upgraded)";
 		};
 		CD9852DF0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984D2C0F939D8800BEA950 /* QTFileExternalLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984D2C0F939D8800BEA950;
 			remoteInfo = "QTFileExternalLib (Library) (Upgraded)";
 		};
 		CD9852E10F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984DA30F939D8800BEA950 /* RTPMetaInfoLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984DA30F939D8800BEA950;
 			remoteInfo = "RTPMetaInfoLib (Library) (Upgraded)";
 		};
 		CD9852E30F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984C900F939D8800BEA950 /* CommonUtilitiesLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984C900F939D8800BEA950;
 			remoteInfo = "CommonUtilitiesLib (Library) (Upgraded)";
 		};
 		CD9852E50F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984D050F939D8800BEA950 /* OSMemoryLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984D050F939D8800BEA950;
 			remoteInfo = "OSMemoryLib (Library) (Upgraded)";
 		};
 		CD9852E70F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984D2C0F939D8800BEA950 /* QTFileExternalLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984D2C0F939D8800BEA950;
 			remoteInfo = "QTFileExternalLib (Library) (Upgraded)";
 		};
 		CD9852E90F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984DA30F939D8800BEA950 /* RTPMetaInfoLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984DA30F939D8800BEA950;
 			remoteInfo = "RTPMetaInfoLib (Library) (Upgraded)";
 		};
 		CD9852EB0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984D2C0F939D8800BEA950 /* QTFileExternalLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984D2C0F939D8800BEA950;
 			remoteInfo = "QTFileExternalLib (Library) (Upgraded)";
 		};
 		CD9852ED0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984C900F939D8800BEA950 /* CommonUtilitiesLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984C900F939D8800BEA950;
 			remoteInfo = "CommonUtilitiesLib (Library) (Upgraded)";
 		};
 		CD9852EF0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984D050F939D8800BEA950 /* OSMemoryLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984D050F939D8800BEA950;
 			remoteInfo = "OSMemoryLib (Library) (Upgraded)";
 		};
 		CD9852F10F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984D5C0F939D8800BEA950 /* QTFileLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984D5C0F939D8800BEA950;
 			remoteInfo = "QTFileLib (Library) (Upgraded)";
 		};
 		CD9852F30F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984DA30F939D8800BEA950 /* RTPMetaInfoLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984DA30F939D8800BEA950;
 			remoteInfo = "RTPMetaInfoLib (Library) (Upgraded)";
 		};
 		CD9852F50F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984D2C0F939D8800BEA950 /* QTFileExternalLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984D2C0F939D8800BEA950;
 			remoteInfo = "QTFileExternalLib (Library) (Upgraded)";
 		};
 		CD9852F70F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984C900F939D8800BEA950 /* CommonUtilitiesLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984C900F939D8800BEA950;
 			remoteInfo = "CommonUtilitiesLib (Library) (Upgraded)";
 		};
 		CD9852F90F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984D050F939D8800BEA950 /* OSMemoryLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984D050F939D8800BEA950;
 			remoteInfo = "OSMemoryLib (Library) (Upgraded)";
 		};
 		CD9852FB0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984DA30F939D8800BEA950 /* RTPMetaInfoLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984DA30F939D8800BEA950;
 			remoteInfo = "RTPMetaInfoLib (Library) (Upgraded)";
 		};
 		CD9852FD0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984D2C0F939D8800BEA950 /* QTFileExternalLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984D2C0F939D8800BEA950;
 			remoteInfo = "QTFileExternalLib (Library) (Upgraded)";
 		};
 		CD9852FF0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984C900F939D8800BEA950 /* CommonUtilitiesLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984C900F939D8800BEA950;
 			remoteInfo = "CommonUtilitiesLib (Library) (Upgraded)";
 		};
 		CD9853010F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984D050F939D8800BEA950 /* OSMemoryLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984D050F939D8800BEA950;
 			remoteInfo = "OSMemoryLib (Library) (Upgraded)";
 		};
 		CD9853030F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984DA30F939D8800BEA950 /* RTPMetaInfoLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984DA30F939D8800BEA950;
 			remoteInfo = "RTPMetaInfoLib (Library) (Upgraded)";
 		};
 		CD9853050F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984D2C0F939D8800BEA950 /* QTFileExternalLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984D2C0F939D8800BEA950;
 			remoteInfo = "QTFileExternalLib (Library) (Upgraded)";
 		};
 		CD9853070F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984C900F939D8800BEA950 /* CommonUtilitiesLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984C900F939D8800BEA950;
 			remoteInfo = "CommonUtilitiesLib (Library) (Upgraded)";
 		};
 		CD9853090F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984D050F939D8800BEA950 /* OSMemoryLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984D050F939D8800BEA950;
 			remoteInfo = "OSMemoryLib (Library) (Upgraded)";
 		};
 		CD98530B0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984DA30F939D8800BEA950 /* RTPMetaInfoLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984DA30F939D8800BEA950;
 			remoteInfo = "RTPMetaInfoLib (Library) (Upgraded)";
 		};
 		CD98530D0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984C900F939D8800BEA950 /* CommonUtilitiesLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984C900F939D8800BEA950;
 			remoteInfo = "CommonUtilitiesLib (Library) (Upgraded)";
 		};
 		CD98530F0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984D2C0F939D8800BEA950 /* QTFileExternalLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984D2C0F939D8800BEA950;
 			remoteInfo = "QTFileExternalLib (Library) (Upgraded)";
 		};
 		CD9853110F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984D050F939D8800BEA950 /* OSMemoryLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984D050F939D8800BEA950;
 			remoteInfo = "OSMemoryLib (Library) (Upgraded)";
 		};
 		CD9853130F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984DA30F939D8800BEA950 /* RTPMetaInfoLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984DA30F939D8800BEA950;
 			remoteInfo = "RTPMetaInfoLib (Library) (Upgraded)";
 		};
 		CD9853150F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984C900F939D8800BEA950 /* CommonUtilitiesLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984C900F939D8800BEA950;
 			remoteInfo = "CommonUtilitiesLib (Library) (Upgraded)";
 		};
 		CD9853170F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984D2C0F939D8800BEA950 /* QTFileExternalLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984D2C0F939D8800BEA950;
 			remoteInfo = "QTFileExternalLib (Library) (Upgraded)";
 		};
 		CD9853190F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984D050F939D8800BEA950 /* OSMemoryLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984D050F939D8800BEA950;
 			remoteInfo = "OSMemoryLib (Library) (Upgraded)";
 		};
 		CD98531B0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984DA30F939D8800BEA950 /* RTPMetaInfoLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984DA30F939D8800BEA950;
 			remoteInfo = "RTPMetaInfoLib (Library) (Upgraded)";
 		};
 		CD98531D0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984C900F939D8800BEA950 /* CommonUtilitiesLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984C900F939D8800BEA950;
 			remoteInfo = "CommonUtilitiesLib (Library) (Upgraded)";
 		};
 		CD98531F0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984D050F939D8800BEA950 /* OSMemoryLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984D050F939D8800BEA950;
 			remoteInfo = "OSMemoryLib (Library) (Upgraded)";
 		};
 		CD9853210F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984D2C0F939D8800BEA950 /* QTFileExternalLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984D2C0F939D8800BEA950;
 			remoteInfo = "QTFileExternalLib (Library) (Upgraded)";
 		};
 		CD9853230F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984DA30F939D8800BEA950 /* RTPMetaInfoLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984DA30F939D8800BEA950;
 			remoteInfo = "RTPMetaInfoLib (Library) (Upgraded)";
 		};
 		CD9853250F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984C5D0F939D8800BEA950 /* AtomicLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984C5D0F939D8800BEA950;
 			remoteInfo = "AtomicLib (Library) (Upgraded)";
 		};
 		CD9853270F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984D8C0F939D8800BEA950 /* RTCPUtilitiesLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984D8C0F939D8800BEA950;
 			remoteInfo = "RTCPUtilitiesLib (Library) (Upgraded)";
 		};
 		CD9853290F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984C900F939D8800BEA950 /* CommonUtilitiesLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984C900F939D8800BEA950;
 			remoteInfo = "CommonUtilitiesLib (Library) (Upgraded)";
 		};
 		CD98532B0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984D2C0F939D8800BEA950 /* QTFileExternalLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984D2C0F939D8800BEA950;
 			remoteInfo = "QTFileExternalLib (Library) (Upgraded)";
 		};
 		CD98532D0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984D050F939D8800BEA950 /* OSMemoryLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984D050F939D8800BEA950;
 			remoteInfo = "OSMemoryLib (Library) (Upgraded)";
 		};
 		CD98532F0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD984DA30F939D8800BEA950 /* RTPMetaInfoLib (Library) (Upgraded) */;
+			remoteGlobalIDString = CD984DA30F939D8800BEA950;
 			remoteInfo = "RTPMetaInfoLib (Library) (Upgraded)";
 		};
 		CD9853310F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98493B0F939D8500BEA950 /* Libraries (Copied) */;
+			remoteGlobalIDString = CD98493B0F939D8500BEA950;
 			remoteInfo = "Libraries (Copied)";
 		};
 		CD9853330F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98493B0F939D8500BEA950 /* Libraries (Copied) */;
+			remoteGlobalIDString = CD98493B0F939D8500BEA950;
 			remoteInfo = "Libraries (Copied)";
 		};
 		CD9853350F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98493B0F939D8500BEA950 /* Libraries (Copied) */;
+			remoteGlobalIDString = CD98493B0F939D8500BEA950;
 			remoteInfo = "Libraries (Copied)";
 		};
 		CD9853370F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98493B0F939D8500BEA950 /* Libraries (Copied) */;
+			remoteGlobalIDString = CD98493B0F939D8500BEA950;
 			remoteInfo = "Libraries (Copied)";
 		};
 		CD9853390F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98493B0F939D8500BEA950 /* Libraries (Copied) */;
+			remoteGlobalIDString = CD98493B0F939D8500BEA950;
 			remoteInfo = "Libraries (Copied)";
 		};
 		CD98533B0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98493B0F939D8500BEA950 /* Libraries (Copied) */;
+			remoteGlobalIDString = CD98493B0F939D8500BEA950;
 			remoteInfo = "Libraries (Copied)";
 		};
 		CD98533D0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98493B0F939D8500BEA950 /* Libraries (Copied) */;
+			remoteGlobalIDString = CD98493B0F939D8500BEA950;
 			remoteInfo = "Libraries (Copied)";
 		};
 		CD98533F0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98493B0F939D8500BEA950 /* Libraries (Copied) */;
+			remoteGlobalIDString = CD98493B0F939D8500BEA950;
 			remoteInfo = "Libraries (Copied)";
 		};
 		CD9853410F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98493B0F939D8500BEA950 /* Libraries (Copied) */;
+			remoteGlobalIDString = CD98493B0F939D8500BEA950;
 			remoteInfo = "Libraries (Copied)";
 		};
 		CD9853430F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98493B0F939D8500BEA950 /* Libraries (Copied) */;
+			remoteGlobalIDString = CD98493B0F939D8500BEA950;
 			remoteInfo = "Libraries (Copied)";
 		};
 		CD9853450F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98493B0F939D8500BEA950 /* Libraries (Copied) */;
+			remoteGlobalIDString = CD98493B0F939D8500BEA950;
 			remoteInfo = "Libraries (Copied)";
 		};
 		CD9853470F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98493B0F939D8500BEA950 /* Libraries (Copied) */;
+			remoteGlobalIDString = CD98493B0F939D8500BEA950;
 			remoteInfo = "Libraries (Copied)";
 		};
 		CD9853490F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98493B0F939D8500BEA950 /* Libraries (Copied) */;
+			remoteGlobalIDString = CD98493B0F939D8500BEA950;
 			remoteInfo = "Libraries (Copied)";
 		};
 		CD98534B0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98493B0F939D8500BEA950 /* Libraries (Copied) */;
+			remoteGlobalIDString = CD98493B0F939D8500BEA950;
 			remoteInfo = "Libraries (Copied)";
 		};
 		CD98534D0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98493B0F939D8500BEA950 /* Libraries (Copied) */;
+			remoteGlobalIDString = CD98493B0F939D8500BEA950;
 			remoteInfo = "Libraries (Copied)";
 		};
 		CD98534F0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98493B0F939D8500BEA950 /* Libraries (Copied) */;
+			remoteGlobalIDString = CD98493B0F939D8500BEA950;
 			remoteInfo = "Libraries (Copied)";
 		};
 		CD9853510F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98493B0F939D8500BEA950 /* Libraries (Copied) */;
+			remoteGlobalIDString = CD98493B0F939D8500BEA950;
 			remoteInfo = "Libraries (Copied)";
 		};
 		CD9853530F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98493B0F939D8500BEA950 /* Libraries (Copied) */;
+			remoteGlobalIDString = CD98493B0F939D8500BEA950;
 			remoteInfo = "Libraries (Copied)";
 		};
 		CD9853550F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98493B0F939D8500BEA950 /* Libraries (Copied) */;
+			remoteGlobalIDString = CD98493B0F939D8500BEA950;
 			remoteInfo = "Libraries (Copied)";
 		};
 		CD9853570F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98493B0F939D8500BEA950 /* Libraries (Copied) */;
+			remoteGlobalIDString = CD98493B0F939D8500BEA950;
 			remoteInfo = "Libraries (Copied)";
 		};
 		CD9853590F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98493B0F939D8500BEA950 /* Libraries (Copied) */;
+			remoteGlobalIDString = CD98493B0F939D8500BEA950;
 			remoteInfo = "Libraries (Copied)";
 		};
 		CD98535B0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98493B0F939D8500BEA950 /* Libraries (Copied) */;
+			remoteGlobalIDString = CD98493B0F939D8500BEA950;
 			remoteInfo = "Libraries (Copied)";
 		};
 		CD98535D0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98493B0F939D8500BEA950 /* Libraries (Copied) */;
+			remoteGlobalIDString = CD98493B0F939D8500BEA950;
 			remoteInfo = "Libraries (Copied)";
 		};
 		CD98535F0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98493B0F939D8500BEA950 /* Libraries (Copied) */;
+			remoteGlobalIDString = CD98493B0F939D8500BEA950;
 			remoteInfo = "Libraries (Copied)";
 		};
 		CD9853610F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98493B0F939D8500BEA950 /* Libraries (Copied) */;
+			remoteGlobalIDString = CD98493B0F939D8500BEA950;
 			remoteInfo = "Libraries (Copied)";
 		};
 		CD9853630F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98493B0F939D8500BEA950 /* Libraries (Copied) */;
+			remoteGlobalIDString = CD98493B0F939D8500BEA950;
 			remoteInfo = "Libraries (Copied)";
 		};
 		CD9853650F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98493B0F939D8500BEA950 /* Libraries (Copied) */;
+			remoteGlobalIDString = CD98493B0F939D8500BEA950;
 			remoteInfo = "Libraries (Copied)";
 		};
 		CD9853670F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98493B0F939D8500BEA950 /* Libraries (Copied) */;
+			remoteGlobalIDString = CD98493B0F939D8500BEA950;
 			remoteInfo = "Libraries (Copied)";
 		};
 		CD9853690F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD98493B0F939D8500BEA950 /* Libraries (Copied) */;
+			remoteGlobalIDString = CD98493B0F939D8500BEA950;
 			remoteInfo = "Libraries (Copied)";
 		};
 		CD98536B0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD9848FB0F939D8500BEA950 /* APIModules_Static (Copied) */;
+			remoteGlobalIDString = CD9848FB0F939D8500BEA950;
 			remoteInfo = "APIModules_Static (Copied)";
 		};
 		CD98536D0F939D8D00BEA950 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68C3920500C567B67F000001 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD9851DF0F939D8D00BEA950 /* QTSSDSAuthModule (Library) OSXServer (Upgraded) */;
+			remoteGlobalIDString = CD9851DF0F939D8D00BEA950;
 			remoteInfo = "QTSSDSAuthModule (Library) OSXServer (Upgraded)";
 		};
 /* End PBXContainerItemProxy section */
@@ -3654,7 +3654,7 @@
 		CD984F310F939D8A00BEA950 /* QTSSFilePrivsModule.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTSSFilePrivsModule.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD984F470F939D8A00BEA950 /* QTSSFlowControlModule.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTSSFlowControlModule.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD984F5F0F939D8A00BEA950 /* QTSSHttpFileModule.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTSSHttpFileModule.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD984F6B0F939D8A00BEA950 /* libQTSSProxyModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libQTSSProxyModule.a; path = build/Development/libQTSSProxyModule.a; sourceTree = "<group>"; };
+		CD984F6B0F939D8A00BEA950 /* libQTSSProxyModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libQTSSProxyModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD984F810F939D8A00BEA950 /* QTSSPosixFileSysModule.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTSSPosixFileSysModule.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD984F980F939D8A00BEA950 /* QTSSRawFileModule.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTSSRawFileModule.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD984FC70F939D8A00BEA950 /* QTSSReflectorModule.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTSSReflectorModule.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -3663,14 +3663,14 @@
 		CD98500B0F939D8A00BEA950 /* QTSSSpamDefenseModule.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTSSSpamDefenseModule.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD98501E0F939D8B00BEA950 /* QTSSWebDebugModule.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTSSWebDebugModule.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9850340F939D8B00BEA950 /* QTSSWebStatsModule.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTSSWebStatsModule.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD9850C50F939D8B00BEA950 /* libWebAdmin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWebAdmin.a; path = build/Development/libWebAdmin.a; sourceTree = "<group>"; };
+		CD9850C50F939D8B00BEA950 /* libWebAdmin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWebAdmin.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9850D10F939D8B00BEA950 /* libSafeInternalStdLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSafeInternalStdLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9850DD0F939D8B00BEA950 /* libSafeDynamicModuleStdLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSafeDynamicModuleStdLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9850EC0F939D8B00BEA950 /* QTSS Web Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QTSS Web Admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD9850FF0F939D8C00BEA950 /* broadcasterctl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = broadcasterctl; path = build/Development/broadcasterctl; sourceTree = "<group>"; };
-		CD9851110F939D8C00BEA950 /* SSLeay.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SSLeay.bundle; path = build/Development/SSLeay.bundle; sourceTree = "<group>"; };
+		CD9850FF0F939D8C00BEA950 /* broadcasterctl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = broadcasterctl; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9851110F939D8C00BEA950 /* SSLeay.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSLeay.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD98512A0F939D8C00BEA950 /* QTSSHomeDirectoryModule.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTSSHomeDirectoryModule.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD98513E0F939D8C00BEA950 /* libQTSSDSAuthModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libQTSSDSAuthModule.a; path = build/Development/libQTSSDSAuthModule.a; sourceTree = "<group>"; };
+		CD98513E0F939D8C00BEA950 /* libQTSSDSAuthModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libQTSSDSAuthModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9851540F939D8C00BEA950 /* QTSSDSAuthModule.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QTSSDSAuthModule.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9851DD0F939D8C00BEA950 /* QuickTimeStreamingServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = QuickTimeStreamingServer; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9851F20F939D8D00BEA950 /* libQTSSDSAuthModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libQTSSDSAuthModule.a; sourceTree = BUILT_PRODUCTS_DIR; };

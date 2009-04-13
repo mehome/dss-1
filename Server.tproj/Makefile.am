@@ -24,6 +24,8 @@ DarwinStreamingServer_CPPFLAGS = -DDSS_USE_API_CALLBACKS -g -Wall -Wno-format-y2
 	-I${top_srcdir}/APIModules/QTSSRTPFileModule \
 	-I${top_srcdir}/APIModules/QTSSAccessModule \
 	-I${top_srcdir}/APIModules/QTSSHttpFileModule \
+	-I${top_srcdir}/APIModules/QTSSDSAuthModule \
+	-I${top_srcdir}/APIModules/QTSSDSAuthModule/DSWrappers \
 	-I${top_srcdir}/QTFileTools/RTPFileGen.tproj \
 	-I${top_srcdir}/APIStubLib \
 	-I${top_srcdir}/CommonUtilitiesLib \
@@ -34,8 +36,7 @@ DarwinStreamingServer_CPPFLAGS = -DDSS_USE_API_CALLBACKS -g -Wall -Wno-format-y2
 	-I${top_srcdir}/Server.tproj
 
 DarwinStreamingServer_LDADD = \
-	${top_builddir}/CommonUtilitiesLib/libCommonUtilitiesLib.la \
-	${top_builddir}/QTFileLib/libQTFileLib.la
+	${top_builddir}/QTFileLib/libQTFileLib.la @SERVER_LIBS@
 
 DarwinStreamingServer_SOURCES = \
 	${top_srcdir}/CommonUtilitiesLib/daemon.c \
@@ -123,4 +124,6 @@ DarwinStreamingServer_SOURCES = \
 	${top_srcdir}/APIModules/QTSSRTPFileModule/RTPFileSession.cpp \
 	${top_srcdir}/APIModules/QTSSAccessModule/QTSSAccessModule.cpp \
 	${top_srcdir}/APIModules/QTSSHttpFileModule/QTSSHttpFileModule.cpp \
-	${top_srcdir}/APIModules/QTSSAccessModule/AccessChecker.cpp
+	${top_srcdir}/APIModules/QTSSAccessModule/AccessChecker.cpp \
+	${top_srcdir}/APIModules/QTSSDSAuthModule/QTSSDSAuthModule.cpp \
+	${top_srcdir}/APIModules/QTSSDSAuthModule/DSAccessChecker.cpp

@@ -59,6 +59,7 @@
 #define USE_THREAD      0 //Flag used in QTProxy
 #define THREADING_IS_COOPERATIVE        0 
 #define USE_THR_YIELD   0
+#undef kPlatformNameString
 #define kPlatformNameString     "MacOSX"
 #define EXPORT
 #define MACOSX_PUBLICBETA 0
