@@ -49,7 +49,7 @@ htmldir=`eval echo "${datarootdir}/dss/admin"`
 AC_SUBST([htmldir])
 toolsdir=`eval echo "${libexecdir}"`
 AC_SUBST([toolsdir])
-logdir=`eval echo "${localstatedir}/log"`
+logdir=`eval echo "${localstatedir}/log/dss"`
 AC_SUBST([logdir])
 piddir=`eval echo "${localstatedir}/run"`
 AC_SUBST([piddir])
