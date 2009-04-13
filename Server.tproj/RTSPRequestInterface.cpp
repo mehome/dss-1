@@ -398,7 +398,8 @@ void RTSPRequestInterface::AppendTransportHeader(StrPtrLen* serverPortA,
          
      
     //The source IP addr is optional, only append it if it is provided
-    if (serverIPAddr != NULL)
+// Chris-Burns@yahoo.com (2009/03/19) [next 1 line/s]
+    if ((serverIPAddr != NULL) && (serverIPAddr->Len > 0))
     {
         fOutputStream->Put(sSourceString);
         fOutputStream->Put(*serverIPAddr);
