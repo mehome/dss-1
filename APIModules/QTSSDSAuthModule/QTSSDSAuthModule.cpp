@@ -32,6 +32,8 @@
 
 */
 
+#ifdef __MacOSX__
+
 #include "QTSSDSAuthModule.h"
 
 
@@ -526,3 +528,5 @@ QTSS_Error Authorize(QTSS_StandardRTSP_Params* inParams)
 
   return theErr;
 }
+
+#endif /* __MacOSX__ */

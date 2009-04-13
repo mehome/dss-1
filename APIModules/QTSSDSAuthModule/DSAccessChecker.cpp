@@ -43,6 +43,7 @@
  *	
 */
 
+#ifdef __MacOSX__
 
 // ANSI / POSIX Headers
 #include <grp.h>
@@ -643,4 +644,4 @@ Bool16 DSAccessChecker::CheckGroupMembership(const char* inUsername, const char*
 	return (bool)isMember;
 }
 
-
+#endif /* __MacOSX__ */
