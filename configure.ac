@@ -11,6 +11,10 @@ AC_PROG_LIBTOOL
 CPPFLAGS="-D_REENTRANT -D__USE_POSIX $CPPFLAGS"
 AC_SUBST([CPPFLAGS])
 
+AC_CHECK_HEADERS([membership.h])
+
+AC_CHECK_FUNCS([mbr_uid_to_uuid strlcpy])
+
 AC_CHECK_LIB([pthread],[pthread_create])
 AC_CHECK_LIB([dl],[dlopen])
 AC_CHECK_LIB([m],[isnan])

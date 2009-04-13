@@ -69,6 +69,7 @@ static LevelMsg sErrorLevel[] = {
 	"DEBUG:"
 };
 
+#ifndef HAVE_STRLCPY
 static size_t strlcpy(char *dest, const char *src, size_t size)
 {
 	if(size)
@@ -78,7 +79,7 @@ static size_t strlcpy(char *dest, const char *src, size_t size)
     }
 	return strlen(src);
 }
-	
+#endif	
 
 // QTSSERRORLOG CLASS DEFINITION
 

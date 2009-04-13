@@ -46,7 +46,7 @@
 
 
 #include <grp.h>
-#ifdef __MacOSX__
+#ifdef HAVE_MEMBERSHIP_H
 #include <membership.h>
 #endif
 #include <pwd.h>
@@ -618,7 +618,7 @@ bool DSAccessFile::CheckGroupMembership(const char* inUsername, const char* inGr
 	// In Tiger, group membership is painfully simple: we ask memberd for it!
 	struct passwd	*user		= NULL;
 	struct group	*group		= NULL;
-#ifdef __MacOSX__	
+#ifdef HAVE_MBR_UID_TO_UUID
 	uuid_t			userID;
 	uuid_t			groupID;
 	int				isMember	= 0;
@@ -630,7 +630,7 @@ bool DSAccessFile::CheckGroupMembership(const char* inUsername, const char* inGr
 	user = getpwnam(inUsername);
 	if ( user == NULL )
 		return false;
-#ifdef __MacOSX__
+#ifdef HAVE_MBR_UID_TO_UUID
 	uuid_clear(userID);
 	if ( mbr_uid_to_uuid(user->pw_uid, userID) )
 		return false;
@@ -640,7 +640,7 @@ bool DSAccessFile::CheckGroupMembership(const char* inUsername, const char* inGr
 	endgrent();
 	if ( group == NULL )
 		return false;
-#ifdef __MacOSX__
+#ifdef HAVE_MBR_UID_TO_UUID
 	uuid_clear(groupID);
 	if ( mbr_gid_to_uuid(group->gr_gid, groupID) )
 		return false;
