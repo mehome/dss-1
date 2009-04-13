@@ -17,4 +17,4 @@ dist_movies_DATA = \
 	sample_h264_300kbit.mp4 \
 	sample_h264_1mbit.mp4
 
-EXTRA_DIST = streamingserver.xml.in defaultPaths.h
+EXTRA_DIST = streamingserver.xml.in defaultPaths.h.in revision.h.in

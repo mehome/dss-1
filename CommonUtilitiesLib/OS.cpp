@@ -218,7 +218,7 @@ SInt32 OS::GetGMTOffset()
         return 0;
     
     return ((tzInfo.Bias / 60) * -1);
-#else
+#elif HAVE_TM_GMTOFF
       
     time_t clock;
     struct tm  *tmptr= localtime(&clock);
@@ -226,6 +226,9 @@ SInt32 OS::GetGMTOffset()
         return 0;
         
      return tmptr->tm_gmtoff / 3600;//convert seconds to  hours before or after GMT
+#else
+	/* XXX There should be some way to figure this out portably */
+	return 0;
 #endif
 }
 

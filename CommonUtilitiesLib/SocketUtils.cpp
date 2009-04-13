@@ -42,13 +42,13 @@
 #include <netdb.h>
 #include <sys/ioctl.h>
 
-#if __FreeBSD__
+#ifdef HAVE_IFADDRS_H
 #include <ifaddrs.h>
 #endif
 #include <unistd.h>
 #include <sys/utsname.h>
 
-#if __solaris__
+#ifdef HAVE_SYS_SOCKIO_H
 #include <sys/sockio.h>
 #endif
 #endif
@@ -340,12 +340,12 @@ void SocketUtils::Initialize(Bool16 lookupDNSName)
     ifc.ifc_len = kMaxAddrBufferSize;
     ifc.ifc_buf = buffer;
 
-#if __linux__ || __linuxppc__ || __solaris__ || __MacOSX__ || __sgi__ || __osf__
+#if defined(SIOCGIFCONF)
     int err = ::ioctl(tempSocket, SIOCGIFCONF, (char*)&ifc);
-#elif __FreeBSD__
+#elif defined(OSIOCGIFCONF)
     int err = ::ioctl(tempSocket, OSIOCGIFCONF, (char*)&ifc);
 #else
-    #error
+    #error SIOCGIFCONF is not defined and no alternative is available.
 #endif
     if (err == -1)
         return;

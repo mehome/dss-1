@@ -37,10 +37,10 @@
 
 #ifndef __Win32__
 #if __PTHREADS__
-#if __solaris__ || __sgi__ || __hpux__
-    #include <errno.h>
-#else
-    #include <sys/errno.h>
+# ifdef HAVE_ERRNO_H
+#  include <errno.h>
+# elif defined(HAVE_SYS_ERRNO_H)
+#  include <sys/errno.h>
 #endif
     #include <pthread.h>
 #else

@@ -13,6 +13,7 @@ INSTALL
 streamingserver.xml
 streamingadminserver.conf
 defaultPaths.h
+revision.h
 aclocal.m4
 autom4te.cache
 config.guess

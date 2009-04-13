@@ -1,30 +1,6 @@
-/*
- *
- * @APPLE_LICENSE_HEADER_START@
- *
- * Copyright (c) 1999-2008 Apple Inc.  All Rights Reserved.
- *
- * This file contains Original Code and/or Modifications of Original Code
- * as defined in and that are subject to the Apple Public Source License
- * Version 2.0 (the 'License'). You may not use this file except in
- * compliance with the License. Please obtain a copy of the License at
- * http://www.opensource.apple.com/apsl/ and read it before using this
- * file.
- * 
- * The Original Code and all software distributed under the License are
- * distributed on an 'AS IS' basis, WITHOUT WARRANTY OF ANY KIND, EITHER
- * EXPRESS OR IMPLIED, AND APPLE HEREBY DISCLAIMS ALL SUCH WARRANTIES,
- * INCLUDING WITHOUT LIMITATION, ANY WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE, QUIET ENJOYMENT OR NON-INFRINGEMENT.
- * Please see the License for the specific language governing rights and
- * limitations under the License.
- * 
- * @APPLE_LICENSE_HEADER_END@
- *
- */
-/*
+/*-
  * Copyright (c) 1990, 1993
- *  The Regents of the University of California.  All rights reserved.
+ *	The Regents of the University of California.  All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions
@@ -36,8 +12,8 @@
  *    documentation and/or other materials provided with the distribution.
  * 3. All advertising materials mentioning features or use of this software
  *    must display the following acknowledgement:
- *  This product includes software developed by the University of
- *  California, Berkeley and its contributors.
+ *	This product includes software developed by the University of
+ *	California, Berkeley and its contributors.
  * 4. Neither the name of the University nor the names of its contributors
  *    may be used to endorse or promote products derived from this software
  *    without specific prior written permission.
@@ -55,35 +31,73 @@
  * SUCH DAMAGE.
  */
 
+/* static char sccsid[] = "@(#)daemon.c	8.1 (Berkeley) 6/4/93";
+__FBSDID("$FreeBSD: src/lib/libc/gen/daemon.c,v 1.6 2003/11/10 22:01:42 ghelmer Exp $");
+ */
+
+#ifdef HAVE_CONFIG_H
+# include "config.h"
+#endif
+
+#ifndef HAVE_DAEMON
+
+#include <errno.h>
 #include <fcntl.h>
+#ifdef HAVE_PATHS_H
+# include <paths.h>
+#endif
+#include <signal.h>
 #include <unistd.h>
-#include "daemon.h"
 
-int daemon(int nochdir, int noclose)
+#ifndef _PATH_DEVNULL
+# define _PATH_DEVNULL "/dev/null"
+#endif
+
+int
+daemon(int nochdir, int noclose)
 {
-    int fd;
+	struct sigaction osa, sa;
+	int fd;
+	pid_t newgrp;
+	int oerrno;
+	int osa_ok;
 
-    switch (fork()) {
-    case -1:
-        return (-1);
-    case 0:
-        break;
-    default:
-        _exit(0);
-    }
+	/* A SIGHUP may be thrown when the parent exits below. */
+	sigemptyset(&sa.sa_mask);
+	sa.sa_handler = SIG_IGN;
+	sa.sa_flags = 0;
+	osa_ok = sigaction(SIGHUP, &sa, &osa);
 
-    if (setsid() == -1)
-        return (-1);
+	switch (fork()) {
+	case -1:
+		return (-1);
+	case 0:
+		break;
+	default:
+		_exit(0);
+	}
 
-    if (!nochdir)
-        (void)chdir("/");
+	newgrp = setsid();
+	oerrno = errno;
+	if (osa_ok != -1)
+		sigaction(SIGHUP, &osa, NULL);
 
-    if (!noclose && (fd = open("/dev/null", O_RDWR, 0)) != -1) {
-        (void)dup2(fd, STDIN_FILENO);
-        (void)dup2(fd, STDOUT_FILENO);
-        (void)dup2(fd, STDERR_FILENO);
-        if (fd > 2)
-            (void)close (fd);
-    }
-    return (0);
+	if (newgrp == -1) {
+		errno = oerrno;
+		return (-1);
+	}
+
+	if (!nochdir)
+		(void)chdir("/");
+
+	if (!noclose && (fd = open(_PATH_DEVNULL, O_RDWR, 0)) != -1) {
+		(void)dup2(fd, STDIN_FILENO);
+		(void)dup2(fd, STDOUT_FILENO);
+		(void)dup2(fd, STDERR_FILENO);
+		if (fd > 2)
+			(void)close(fd);
+	}
+	return (0);
 }
+
+#endif /*!HAVE_DAEMON*/

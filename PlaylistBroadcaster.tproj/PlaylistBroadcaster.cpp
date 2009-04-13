@@ -54,12 +54,11 @@
 #endif
 
 #ifndef __Win32__
-    #if defined (__solaris__) || defined (__osf__) || defined (__sgi__) || defined (__hpux__)
+	#ifndef HAVE_DAEMON
         #include "daemon.h"
-    #else
-        #ifndef __FreeBSD__
-            #include <sys/sysctl.h>
-        #endif
+    #endif
+	#ifdef HAVE_SYS_SYSCTL_H
+		#include <sys/sysctl.h>
     #endif
 #endif
 

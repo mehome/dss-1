@@ -6,8 +6,6 @@ libCommonUtilitiesLib_la_CPPFLAGS = -include ../PlatformHeader.h -g -Wall -O2 \
 	-I${top_srcdir}/RTPMetaInfoLib \
 	-I${top_srcdir}/APICommonCode
 
-libCommonUtilitiesLib_la_LDFLAGS = -static
-
 libCommonUtilitiesLib_la_SOURCES = \
 	base64.c GetWord.c Trim.c md5.c \
 	\
@@ -46,4 +44,5 @@ libCommonUtilitiesLib_la_SOURCES = \
 			UserAgentParser.cpp \
 			QueryParamList.cpp \
 			md5digest.cpp \
-			SDPUtils.cpp
+			SDPUtils.cpp \
+			daemon.c

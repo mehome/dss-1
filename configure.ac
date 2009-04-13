@@ -1,4 +1,4 @@
-AC_INIT([DarwinStreamingServer],[6.0.3],,[dss])
+AC_INIT([DarwinStreamingServer],[6.0.3-evo1],,[dss])
 AC_CONFIG_SRCDIR([Server.tproj/main.cpp])
 AC_PREFIX_DEFAULT([/opt/dss])
 AM_INIT_AUTOMAKE([foreign])
@@ -11,14 +11,21 @@ AC_PROG_LIBTOOL
 CPPFLAGS="-D_REENTRANT -D__USE_POSIX $CPPFLAGS"
 AC_SUBST([CPPFLAGS])
 
-AC_CHECK_HEADERS([membership.h])
+AC_C_BIGENDIAN
 
-AC_CHECK_FUNCS([mbr_uid_to_uuid strlcpy])
+AC_HEADER_TIME
+AC_CHECK_HEADERS([membership.h errno.h sys/errno.h sys/types.h netinet/in.h pthread.h sys/sockio.h ifaddrs.h paths.h sys/sysctl.h])
 
 AC_CHECK_LIB([pthread],[pthread_create])
 AC_CHECK_LIB([dl],[dlopen])
 AC_CHECK_LIB([m],[isnan])
 AC_CHECK_LIB([crypt],[crypt])
+AC_CHECK_LIB([nsl],[gethostbyname])
+AC_CHECK_LIB([socket],[socket])
+
+AC_CHECK_FUNCS([mbr_uid_to_uuid strlcpy pthread_create daemon])
+
+AC_CHECK_MEMBER([struct tm.tm_gmtoff],[AC_DEFINE([HAVE_TM_GMTOFF],1)])
 
 dnl User and group to run the server as
 dssuser="qtss"
@@ -58,8 +65,11 @@ AC_SUBST([configdir])
 samplesdir=`eval echo "${docdir}"`
 AC_SUBST([samplesdir])
 
+AC_DEFINE_UNQUOTED([kPlatformNameString], ["$host_os"], [Platform name])
+
 AC_CONFIG_FILES([
 defaultPaths.h
+revision.h
 Makefile
 CommonUtilitiesLib/Makefile
 QTFileLib/Makefile

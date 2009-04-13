@@ -460,7 +460,7 @@ int PopulatePickerFromDir( PlaylistPicker* picker, char* dirPath, int weight )
         {
             strcat(expandedFileName, entry->d_name);
             
-#if __solaris__ || __sgi__ || __osf__ || __hpux__
+#ifndef DT_DIR
 			if (::IsDir(expandedFileName))
 #else
             if ((entry->d_type & DT_DIR) != 0)

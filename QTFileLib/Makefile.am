@@ -7,8 +7,6 @@ libQTFileLib_la_CPPFLAGS = -include ../PlatformHeader.h -g -Wall -O3 \
 	-I${top_srcdir}/APIStubLib \
 	-I${top_srcdir}/CommonUtilitiesLib
 
-libQTFileLib_la_LDFLAGS = -static
-
 libQTFileLib_la_SOURCES = \
 			QTAtom.cpp\
 			QTAtom_dref.cpp \

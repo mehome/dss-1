@@ -92,145 +92,33 @@
 #define USE_THREAD      0 //Flag used in QTProxy
 #define THREADING_IS_COOPERATIVE        0
 #define USE_THR_YIELD   0
+#undef kPlatformNameString
 #define kPlatformNameString     "Win32"
 #define EXPORT  __declspec(dllexport)
 #ifndef USE_DEFAULT_STD_LIB
     #define USE_DEFAULT_STD_LIB 1
 #endif
 
-#elif __linux__ 
+#else /* Generic POSIX-like OS */
 
-#include <endian.h>
-#if __BYTE_ORDER == BIG_ENDIAN
-    #define BIGENDIAN      1
-#else
-    #define BIGENDIAN      0
+# ifdef WORDS_BIGENDIAN
+#  define BIGENDIAN 1
+# else
+#  define BIGENDIAN 0
 #endif
 
-#define USE_ATOMICLIB 0
-#define MACOSXEVENTQUEUE 0
-#define __PTHREADS__    1
-#define __PTHREADS_MUTEXES__    1
-#define ALLOW_NON_WORD_ALIGN_ACCESS 1
-#define USE_THREAD      0 //Flag used in QTProxy
-#define THREADING_IS_COOPERATIVE        0 
-#define USE_THR_YIELD   0
-#define kPlatformNameString     "Linux"
-#define EXPORT
-#define _REENTRANT 1
-
-#elif __linuxppc__ 
-
-#include <endian.h>
-#if __BYTE_ORDER == BIG_ENDIAN
-    #define BIGENDIAN      1
-#else
-    #define BIGENDIAN      0
-#endif
-
-#define USE_ATOMICLIB 0
-#define MACOSXEVENTQUEUE 0
-#define __PTHREADS__    1
-#define __PTHREADS_MUTEXES__    1
-#define ALLOW_NON_WORD_ALIGN_ACCESS 1
-#define USE_THREAD      0 //Flag used in QTProxy
-#define THREADING_IS_COOPERATIVE        0 
-#define USE_THR_YIELD   0
-#define kPlatformNameString     "LinuxPPC"
-#define EXPORT
-#define _REENTRANT 1
-
-#elif __FreeBSD__ 
-
-#include <machine/endian.h>
-#if BYTE_ORDER == BIG_ENDIAN
-    #define BIGENDIAN      1
-#else
-    #define BIGENDIAN      0
-#endif
-
-#define USE_ATOMICLIB 0
-#define MACOSXEVENTQUEUE 0
-#define __PTHREADS__    1
-#define __PTHREADS_MUTEXES__    1
-#define ALLOW_NON_WORD_ALIGN_ACCESS 1
-#define USE_THREAD      1 //Flag used in QTProxy
-#define THREADING_IS_COOPERATIVE        1 
-#define USE_THR_YIELD   0
-#define kPlatformNameString     "FreeBSD"
-#define EXPORT
-#define _REENTRANT 1
-
-#elif __solaris__ 
-
-#ifdef sparc
-   #define BIGENDIAN 1
-#endif
-#ifdef _M_IX86
-   #define BIGENDIAN 0
-#endif
-#ifdef _M_ALPHA
-   #define BIGENDIAN 0
-#endif
-#ifndef BIGENDIAN
-  #error NEED BIGENDIAN DEFINITION 0 OR 1 FOR PLATFORM
-#endif
-
-#define USE_ATOMICLIB 0
-#define MACOSXEVENTQUEUE 0
-#define __PTHREADS__    1
-#define __PTHREADS_MUTEXES__    1
-#define ALLOW_NON_WORD_ALIGN_ACCESS 0
-#define USE_THREAD      1 //Flag used in QTProxy
-#define THREADING_IS_COOPERATIVE        0
-#define USE_THR_YIELD   0
-#define kPlatformNameString     "Solaris"
-#define EXPORT
-#define _REENTRANT 1
-
-#elif __sgi__ 
-
-#define USE_ATOMICLIB 0
-#define MACOSXEVENTQUEUE 0
-#define __PTHREADS__    1
-#define __PTHREADS_MUTEXES__    1
-#define BIGENDIAN               1
-#define ALLOW_NON_WORD_ALIGN_ACCESS 0
-#define USE_THREAD              1 //Flag used in QTProxy
-#define THREADING_IS_COOPERATIVE                0
-#define USE_THR_YIELD   0
-#define kPlatformNameString     "IRIX"
-#define EXPORT
-#define _REENTRANT 1
-
-#elif __hpux__ 
-
-#define USE_ATOMICLIB 0
-#define MACOSXEVENTQUEUE 0
-#define __PTHREADS__    1
-#define __PTHREADS_MUTEXES__    1
-#define BIGENDIAN               1
-#define ALLOW_NON_WORD_ALIGN_ACCESS 0
-#define USE_THREAD              1 //Flag used in QTProxy
-#define THREADING_IS_COOPERATIVE                0
-#define USE_THR_YIELD   0
-#define kPlatformNameString     "HP-UX"
-#define EXPORT
-#define _REENTRANT 1
-
-#elif defined(__osf__)
-
-#define __osf__ 1
-#define USE_ATOMICLIB 0
-#define MACOSXEVENTQUEUE 0
-#define __PTHREADS__    1
-#define __PTHREADS_MUTEXES__    1
-#define BIGENDIAN       0
-#define ALLOW_NON_WORD_ALIGN_ACCESS 0
-#define USE_THREAD      1 //Flag used in QTProxy
-#define THREADING_IS_COOPERATIVE        0
-#define USE_THR_YIELD   0
-#define kPlatformNameString     "Tru64UNIX"
-#define EXPORT
+# define USE_ATOMICLIB 0
+# define MACOSXEVENTQUEUE 0
+# ifdef HAVE_PTHREAD_CREATE
+#  define __PTHREADS__    1
+#  define __PTHREADS_MUTEXES__    1
+# endif
+/* This needs an autoconf macro */
+# define ALLOW_NON_WORD_ALIGN_ACCESS 0
+# define USE_THREAD      0 //Flag used in QTProxy
+# define THREADING_IS_COOPERATIVE        0
+# define USE_THR_YIELD   0
+# define EXPORT
+# define _REENTRANT 1
 
 #endif

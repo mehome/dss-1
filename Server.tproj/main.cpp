@@ -64,6 +64,10 @@
 #include "QTSSExpirationDate.h"
 #include "GenerateXMLPrefs.h"
 
+#ifndef HAVE_DAEMON
+extern "C" int daemon(int nochdir, int noclose);
+#endif
+
 static int sSigIntCount = 0;
 static int sSigTermCount = 0;
 static pid_t sChildPID = 0;
