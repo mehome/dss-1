@@ -217,7 +217,7 @@
 #else /* Generic POSIX */
 
     /* Defines */
-    #define _64BITARG_ "q"
+    #define _64BITARG_ "ll"
     #define _S64BITARG_ "lld"
     #define _U64BITARG_ "llu"
 #if __LP64__
