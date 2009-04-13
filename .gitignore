@@ -9,6 +9,7 @@ INSTALL
 *.so
 *.o
 *.lo
+*.loT
 streamingserver.xml
 streamingadminserver.conf
 defaultPaths.h
