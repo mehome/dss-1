@@ -71,6 +71,7 @@ WebAdmin/streamingadminserver.conf
 initscripts/dss
 initscripts/Makefile
 PlaylistBroadcaster.tproj/Makefile
+Documentation/Makefile
 ])
 
 AC_OUTPUT
