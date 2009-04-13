@@ -1,4 +1,4 @@
-AC_INIT([DarwinStreamingServer],[6.0.3])
+AC_INIT([DarwinStreamingServer],[6.0.3],,[dss])
 AC_CONFIG_SRCDIR([Server.tproj/main.cpp])
 AC_PREFIX_DEFAULT([/opt/dss])
 AM_INIT_AUTOMAKE([foreign])
@@ -35,25 +35,25 @@ fi
 
 dnl Evaluate the full paths to various directories so that we can substitute
 dnl them into configuration files and scripts.
-moviesdir=`eval echo "${datarootdir}/dss/movies"`
+moviesdir=`eval echo "${datarootdir}/${PACKAGE_TARNAME}/movies"`
 AC_SUBST([moviesdir])
-playlistsdir=`eval echo "${datarootdir}/dss/playlists"`
+playlistsdir=`eval echo "${datarootdir}/${PACKAGE_TARNAME}/playlists"`
 AC_SUBST([playlistsdir])
 serverdir=`eval echo "${sbindir}"`
 AC_SUBST([serverdir])
-dssdir=`eval echo "${libdir}/dss"`
+dssdir=`eval echo "${libdir}/${PACKAGE_TARNAME}"`
 AC_SUBST([dssdir])
-dssmoddir=`eval echo "${libdir}/dss/modules"`
+dssmoddir=`eval echo "${libdir}/${PACKAGE_TARNAME}/modules"`
 AC_SUBST([dssmoddir])
-htmldir=`eval echo "${datarootdir}/dss/admin"`
+htmldir=`eval echo "${datarootdir}/${PACKAGE_TARNAME}/admin"`
 AC_SUBST([htmldir])
 toolsdir=`eval echo "${libexecdir}"`
 AC_SUBST([toolsdir])
-logdir=`eval echo "${localstatedir}/log/dss"`
+logdir=`eval echo "${localstatedir}/log/${PACKAGE_TARNAME}"`
 AC_SUBST([logdir])
 piddir=`eval echo "${localstatedir}/run"`
 AC_SUBST([piddir])
-configdir=`eval echo "${sysconfdir}/dss"`
+configdir=`eval echo "${sysconfdir}/${PACKAGE_TARNAME}"`
 AC_SUBST([configdir])
 samplesdir=`eval echo "${docdir}"`
 AC_SUBST([samplesdir])
