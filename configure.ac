@@ -3,7 +3,7 @@ AC_CONFIG_SRCDIR([Server.tproj/main.cpp])
 AM_INIT_AUTOMAKE([foreign])
 AM_MAINTAINER_MODE
 AC_PREFIX_DEFAULT([/opt/dss])
-
+JL_CHECK_BUNDLES
 AC_PROG_CC
 AC_PROG_CXX
 AC_PROG_LIBTOOL
@@ -62,6 +62,10 @@ fi
 dnl Evaluate the full paths to various directories so that we can substitute
 dnl them into configuration files and scripts.
 
+if test x"${jl_enable_bundles}" = x"yes" ; then
+	fs_layout="apple"
+fi
+
 if test x"${fs_layout}" = x"gnu" ; then
 	moviesdir=`eval echo "${datarootdir}/${PACKAGE_TARNAME}/movies"`
 	playlistsdir=`eval echo "${datarootdir}/${PACKAGE_TARNAME}/playlists"`
@@ -75,15 +79,16 @@ if test x"${fs_layout}" = x"gnu" ; then
 	configdir=`eval echo "${sysconfdir}/${PACKAGE_TARNAME}"`
 	samplesdir=`eval echo "${docdir}"`
 else
-	moviesdir=`eval echo "${fs_domain}/Library/QuickTimeStreaming/Movies"`
-	playlistsdir=`eval echo "${fs_domain}/Library/QuickTimeStreaming/Playlists"`
+	base=`eval echo "${librarydir}/${PACKAGE}"`
+	moviesdir=`eval echo "${base}/Movies"`
+	playlistsdir=`eval echo "${base}/Playlists"`
 	serverdir=`eval echo "${sbindir}"`
-	dssdir=`eval echo "${fs_domain}/Library/QuickTimeStreaming"`
-	dssmoddir=`eval echo "${fs_domain}/Library/QuickTimeStreaming/Modules"`
+	dssdir=`eval echo "${base}"`
+	dssmoddir=`eval echo "${base}/Modules"`
 	toolsdir=`eval echo "${sbindir}"`
-	logdir=`eval echo "${fs_domain}/Library/QuickTimeStreaming/Logs"`
+	logdir=`eval echo "${base}/Logs"`
 	piddir=`eval echo "${localstatedir}/run"`
-	configdir=`eval echo "${fs_domain}/Library/QuickTimeStreaming/Config"`
+	configdir=`eval echo "${base}/Config"`
 	samplesdir="{$moviesdir}"
 fi
 
@@ -98,8 +103,6 @@ AC_SUBST([logdir])
 AC_SUBST([piddir])
 AC_SUBST([configdir])
 AC_SUBST([samplesdir])
-
-
 
 AC_DEFINE_UNQUOTED([kPlatformNameString], ["$host_os"], [Platform name])
 
@@ -121,3 +124,15 @@ Documentation/Makefile
 ])
 
 AC_OUTPUT
+
+AC_MSG_RESULT([
+
+Installation paths summary:
+
+Server:                 $serverdir
+QTSS Modules:           $dssmoddir
+Tools:                  $toolsdir
+Configuration files:    $configdir
+Movies:                 $moviesdir
+Playlists:              $playlistsdir
+])
