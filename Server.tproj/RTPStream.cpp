@@ -682,10 +682,14 @@ void RTPStream::AppendTransport(RTSPRequestInterface* request)
         //
         char srcIPAddrBuf[20];
         StrPtrLen theSrcIPAddress(srcIPAddrBuf, 20);
-        QTSServerInterface::GetServer()->GetPrefs()->GetTransportSrcAddr(&theSrcIPAddress);
-        if (theSrcIPAddress.Len == 0)       
-            theSrcIPAddress = *fSockets->GetSocketA()->GetLocalAddrStr();
-
+// Chris-Burns@yahoo.com (2009/03/19) [next 7 line/s]
+        if (QTSServerInterface::GetServer()->GetPrefs()->GetAppendSrcAddrInTransport()) {
+            QTSServerInterface::GetServer()->GetPrefs()->GetTransportSrcAddr(&theSrcIPAddress);
+            if (theSrcIPAddress.Len == 0)       
+                theSrcIPAddress = *fSockets->GetSocketA()->GetLocalAddrStr();
+        }
+        else
+            theSrcIPAddress.Len = 0;
 
         if(request->IsPushRequest())
         {
