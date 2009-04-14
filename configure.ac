@@ -2,7 +2,6 @@ AC_INIT([DarwinStreamingServer],[6.0.3-evo1],,[dss])
 AC_CONFIG_SRCDIR([Server.tproj/main.cpp])
 AM_INIT_AUTOMAKE([foreign])
 AM_MAINTAINER_MODE
-AC_PREFIX_DEFAULT([/opt/dss])
 JL_CHECK_BUNDLES
 AC_PROG_CC
 AC_PROG_CXX
@@ -15,7 +14,6 @@ case "${host_os}" in
 		CPPFLAGS="-D__MacOSX__ -DNeXT $CPPFLAGS"
 		CXXFLAGS="-fmessage-length=0 -Wno-trigraphs -fno-exceptions -fpascal-strings -fasm-blocks"
 		SERVER_LIBS="-framework Security -framework CoreFoundation -framework DirectoryService"
-		ac_default_prefix="/usr"
 		test x"${localstatedir}" = x'${prefix}/var' && localstatedir='/var'
 		;;
 	*)
@@ -79,7 +77,7 @@ if test x"${fs_layout}" = x"gnu" ; then
 	configdir=`eval echo "${sysconfdir}/${PACKAGE_TARNAME}"`
 	samplesdir=`eval echo "${docdir}"`
 else
-	base=`eval echo "${librarydir}/${PACKAGE}"`
+	base=`eval echo "${librarydir}/${PACKAGE_NAME}"`
 	moviesdir=`eval echo "${base}/Movies"`
 	playlistsdir=`eval echo "${base}/Playlists"`
 	serverdir=`eval echo "${sbindir}"`
