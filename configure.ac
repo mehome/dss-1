@@ -32,6 +32,7 @@ AC_C_BIGENDIAN
 
 AC_HEADER_TIME
 AC_CHECK_HEADERS([membership.h errno.h sys/errno.h sys/types.h netinet/in.h pthread.h sys/sockio.h ifaddrs.h paths.h sys/sysctl.h])
+AC_CHECK_HEADERS([crypt.h])
 
 AC_CHECK_LIB([pthread],[pthread_create])
 AC_CHECK_LIB([dl],[dlopen])

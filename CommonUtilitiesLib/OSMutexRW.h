@@ -59,7 +59,7 @@ class OSMutexRW
         int TryLockRead();
     
     private:
-        enum {eMaxWait = 0x0FFFFFFF, eMultiThreadCondition = true, };
+        enum {eMaxWait = 0x0FFFFFFF, eMultiThreadCondition = true };
         enum {eActiveWriterState = -1, eNoWriterState = 0 };
 
         OSMutex             fInternalLock;   // the internal lock         

@@ -2,7 +2,7 @@ server_PROGRAMS = DarwinStreamingServer
 
 DarwinStreamingServer_LDFLAGS = -export-dynamic
 
-DarwinStreamingServer_CPPFLAGS = -DDSS_USE_API_CALLBACKS -g -Wall -Wno-format-y2k -include ${top_srcdir}/PlatformHeader.h -O3 \
+DarwinStreamingServer_CPPFLAGS = -DDSS_USE_API_CALLBACKS ${DEBUGFLAGS} ${WARNFLAGS} ${WARNNOY2KFLAGS} -include ${top_srcdir}/PlatformHeader.h ${OPT3FLAGS} \
 	-I${top_srcdir} \
 	-I${top_srcdir}/QTFileLib \
 	-I${top_srcdir}/OSMemoryLib \

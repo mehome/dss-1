@@ -1,7 +1,7 @@
 
 noinst_LTLIBRARIES = libCommonUtilitiesLib.la
 
-libCommonUtilitiesLib_la_CPPFLAGS = -include ../PlatformHeader.h -g -Wall -O2 \
+libCommonUtilitiesLib_la_CPPFLAGS = -include ../PlatformHeader.h ${DEBUGFLAGS} ${WARNFLAGS} ${OPTFLAGS} \
 	-I${top_srcdir}/APIStubLib \
 	-I${top_srcdir}/RTPMetaInfoLib \
 	-I${top_srcdir}/APICommonCode

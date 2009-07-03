@@ -63,7 +63,7 @@ data: One or more of the following data format blocks may appear
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+ 
 
 */
-char RTCPNaduPacket::sRTCPTestBuffer[];
+char RTCPNaduPacket::sRTCPTestBuffer[256];
  
 
 RTCPNaduPacket::RTCPNaduPacket(Bool16 debug = false): 

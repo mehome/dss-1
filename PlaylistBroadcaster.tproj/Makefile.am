@@ -1,6 +1,6 @@
 bin_PROGRAMS = PlaylistBroadcaster
 
-PlaylistBroadcaster_CPPFLAGS = -D__USE_MAX_PRINTF__ -g -Wall -Wno-format-y2k -include ${top_srcdir}/PlatformHeader.h -include ${top_srcdir}/revision.h -O3 \
+PlaylistBroadcaster_CPPFLAGS = -D__USE_MAX_PRINTF__ ${DEBUGFLAGS} ${WARNFLAGS} ${WARNY2KFLAGS} -include ${top_srcdir}/PlatformHeader.h -include ${top_srcdir}/revision.h ${OPT3FLAGS} \
 	-I${top_srcdir} \
 	-I${top_srcdir}/QTFileLib \
 	-I${top_srcdir}/OSMemoryLib \

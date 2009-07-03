@@ -121,7 +121,7 @@ enum
     qtssActionFlagsWrite        = 0x00000002,
     qtssActionFlagsAdmin        = 0x00000004,
     qtssActionFlagsExtended     = 0x40000000,
-    qtssActionQTSSExtended      = 0x80000000,
+    qtssActionQTSSExtended      = 0x80000000
 };
 typedef UInt32 QTSS_ActionFlags;
 
@@ -950,7 +950,7 @@ enum
     qtssUserRights              = 4, //r/w   //QTSS_AttrRights - rights granted this user
     qtssUserExtendedRights      = 5, //r/w   //qtssAttrDataTypeCharArray - a list of strings with extended rights granted to the user.
     qtssUserQTSSExtendedRights  = 6, //r/w   //qtssAttrDataTypeCharArray - a private list of strings with extended rights granted to the user and reserved by QTSS/Apple.
-    qtssUserNumParams           = 7,
+    qtssUserNumParams           = 7
 };
 typedef UInt32 QTSS_UserProfileObjectAttributes;
 
@@ -1025,7 +1025,7 @@ enum
     QTSS_AdviseFile_Role =          FOUR_CHARS_TO_INT('a', 'd', 'f', 'l'),  //adfl
     QTSS_ReadFile_Role =            FOUR_CHARS_TO_INT('r', 'd', 'f', 'l'),  //rdfl
     QTSS_CloseFile_Role =           FOUR_CHARS_TO_INT('c', 'l', 'f', 'l'),  //clfl
-    QTSS_RequestEventFile_Role =    FOUR_CHARS_TO_INT('r', 'e', 'f', 'l'),  //refl
+    QTSS_RequestEventFile_Role =    FOUR_CHARS_TO_INT('r', 'e', 'f', 'l')  //refl
     
 };
 typedef UInt32 QTSS_Role;

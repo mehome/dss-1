@@ -56,7 +56,7 @@
 
 #include <errno.h>
 
-#if __solaris__ || __linux__ || __sgi__	|| __hpux__
+#ifdef HAVE_CRYPT_H
     #include <crypt.h>
 #endif
 
