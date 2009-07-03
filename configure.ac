@@ -21,7 +21,34 @@ case "${host_os}" in
 		;;
 esac
 
-CPPFLAGS="-D_REENTRANT -D__USE_POSIX $CPPFLAGS"
+case "${host_os}" in
+	linux-gnu*)
+		HOST_OS=linux
+		;;
+	solaris*)
+		HOST_OS=solaris
+		;;
+	darwin*)
+		HOST_OS=darwin
+		;;
+	freebsd*)
+		HOST_OS=freebsd
+		;;
+	netbsd*)
+		HOST_OS=netbsd
+		;;
+	openbsd*)
+		HOST_OS=openbsd
+		;;
+	*)
+		HOST_OS=`echo $host_os | sed -e 's%-%_%g'`
+		;;
+esac
+
+host_os_def="host_os_${HOST_OS}"
+host_cpu_def="host_cpu_${host_cpu}"
+
+CPPFLAGS="-D_REENTRANT -D__USE_POSIX $CPPFLAGS -D${host_os_def} -D${host_cpu_def}"
 AC_SUBST([CPPFLAGS])
 
 AC_SUBST([CXXFLAGS])
@@ -119,6 +146,7 @@ WebAdmin/streamingadminserver.conf
 initscripts/dss
 initscripts/Makefile
 PlaylistBroadcaster.tproj/Makefile
+StreamingProxy.tproj/Makefile
 Documentation/Makefile
 ])
 

@@ -1,6 +1,7 @@
 
 SUBDIRS = CommonUtilitiesLib QTFileLib Server.tproj APIModules \
-	PlaylistBroadcaster.tproj initscripts Documentation
+	PlaylistBroadcaster.tproj StreamingProxy.tproj \
+	initscripts Documentation
 
 dist_doc_DATA = relayconfig.xml qtusers qtgroups qtaccess
 

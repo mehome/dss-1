@@ -126,7 +126,7 @@ void sig_catcher(int sig)
     
         if (sig == SIGUSR1)
         {   gDropPercent = 0;
-#if __solaris__
+#if HOST_SOLARIS
             signal(SIGUSR1, sig_catcher);
 #endif
             return;
@@ -137,7 +137,7 @@ void sig_catcher(int sig)
             if (gDropPercent > 100.0)
                 gDropPercent = 100.0;
                 
-#if __solaris__
+#if host_os_solaris
             signal(SIGUSR2, sig_catcher);
 #endif
             return;
@@ -163,7 +163,7 @@ void sig_catcher(int sig)
                 
                 fclose(dropParamFile);
             }
-#if __solaris__
+#if host_os_solaris
             signal(SIGHUP, sig_catcher);
 #endif
             return;
@@ -173,7 +173,7 @@ void sig_catcher(int sig)
     // do nothing cases
     if ( (sig == SIGUSR1) || (sig == SIGUSR2) || (sig == SIGHUP) )
     {   
-#if __solaris__
+#if host_os_solaris
         sigignore(sig);
 #endif
         return; 
@@ -1840,7 +1840,7 @@ void read_config() {
                 else
                   {
                     *(line+pmatch[1].rm_eo)='\0';
-                    #if __solaris__
+                    #if host_os_solaris
                         bindaddr.s_addr = inet_addr(line+pmatch[1].rm_so);
                         if( 0 == bindaddr.s_addr)
                     #else
