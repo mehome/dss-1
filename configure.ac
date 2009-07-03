@@ -2,6 +2,7 @@ AC_INIT([DarwinStreamingServer],[6.0.3-evo1],,[dss])
 AC_CONFIG_SRCDIR([Server.tproj/main.cpp])
 AM_INIT_AUTOMAKE([foreign])
 AM_MAINTAINER_MODE
+JL_CONFIG_INIT
 JL_CHECK_BUNDLES
 AC_PROG_CC
 AC_PROG_CXX
