@@ -49,7 +49,7 @@
 #include <unistd.h>
 #endif
 
-#if defined (__solaris__) || defined (__osf__) || defined (__hpux__)
+#if defined (host_os_solaris) || defined (__osf__) || defined (__hpux__)
 #include "daemon.h"
 #endif
 
@@ -241,7 +241,7 @@ int main(int argc, char * argv[])
     (void)::sigaction(SIGALRM, &act, NULL);
 
 
-#if __solaris__ || __linux__ || __hpux__
+#if host_os_solaris || host_os_linux || __hpux__
     //grow our pool of file descriptors to the max!
     struct rlimit rl;
     
@@ -570,7 +570,7 @@ int main(int argc, char * argv[])
 	(void) ::system(commandStr);    
 #endif
     
-#ifdef __solaris__  
+#ifdef host_os_solaris
     // Set Priority Type to Real Time, timeslice = 100 milliseconds. Change the timeslice upwards as needed. This keeps the server priority above the playlist broadcaster which is a time-share scheduling type.
     char commandStr[64];
     qtss_sprintf(commandStr, "priocntl -s -c RT -t 10 -i pid %d", (int) getpid()); 
