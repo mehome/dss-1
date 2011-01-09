@@ -35,7 +35,7 @@
 #include <sys/types.h>
 #include <sys/socket.h>
 
-#if __solaris__
+#if host_os_solaris
 #include "SocketUtils.h"
 #endif
 
@@ -124,7 +124,7 @@ OS_Error UDPSocket::JoinMulticast(UInt32 inRemoteAddr)
     struct ip_mreq  theMulti;
         UInt32 localAddr = fLocalAddr.sin_addr.s_addr; // Already in network byte order
 
-#if __solaris__
+#if host_os_solaris
     if( localAddr == htonl(INADDR_ANY) )
          localAddr = htonl(SocketUtils::GetIPAddr(0));
 #endif

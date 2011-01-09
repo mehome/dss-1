@@ -256,7 +256,7 @@ void SocketUtils::Initialize(Bool16 lookupDNSName)
         theErr = ::ioctl(tempSocket, SIOCGIFFLAGS, (char *) &ifrf);
         Assert(theErr != -1);
 
-#ifndef __solaris__
+#ifndef host_os_solaris
         /* Skip things which aren't interesting */
         if ((ifrf.ifr_flags & IFF_UP) == 0 ||
             (ifrf.ifr_flags & (IFF_BROADCAST | IFF_POINTOPOINT)) == 0)

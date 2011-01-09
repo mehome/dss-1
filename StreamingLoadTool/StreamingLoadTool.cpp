@@ -152,7 +152,7 @@ int main(int argc, char *argv[])
 	(void)::sigaction(SIGINT, &act, NULL);
 	(void)::sigaction(SIGTERM, &act, NULL);
 
-#if __MacOSX__ || __solaris__
+#if __MacOSX__ || host_os_solaris
 	//grow our pool of file descriptors to the max!
 	struct rlimit rl;
                
